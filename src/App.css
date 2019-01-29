@@ -2,3 +2,7 @@
   color: inherit!important;
   text-decoration: none!important;
 }
+
+.navbar-text {
+  padding-right: 13px;
+}

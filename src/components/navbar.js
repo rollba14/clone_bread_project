@@ -38,22 +38,22 @@ class MyNavbar extends Component{
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto text-muted" navbar>
-              <NavItem className="text-muted">
+              <NavItem className="navbar-text">
                 <Link to="/about">What We Do</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="navbar-text">
                 <Link to="/home" >Who We Are</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="navbar-text">
                 <Link to="/help" >Get Involved</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="navbar-text">
                 <Link to="/news" >News & Events</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="navbar-text">
                 <Link to="/application" >Apply to Program</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="navbar-text">
                 <Link to="/donation" >Donate!</Link>
               </NavItem>
             </Nav>
