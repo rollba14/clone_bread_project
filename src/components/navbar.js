@@ -29,7 +29,7 @@ class MyNavbar extends Component{
   render(){
     return(
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="lg">
           <Link to='/' className="navbar-brand mr-auto">
             Logo Here
           </Link>
