@@ -9,6 +9,7 @@
 }
 
 .navbar {
+  padding: 0.5em 3em;
   line-height: 5em;
   max-height: 106px;
   overflow: visible;
@@ -18,12 +19,14 @@
   transition: height .35s linear;
 }
 
-.navbar .collapsing, .navbar .collapse{
+/* .navbar .show, .navbar .show{
   padding: 2em 2em;
   background-color: white;
-}
+} */
 
 .navbar .show, .collapsing{
+  padding: 2em 2em;
+  background-color: white;
   line-height: normal;
   border-top: 3px solid #0072ab;
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
