@@ -7,7 +7,7 @@
   padding-right: 13px;
 }
 
-.navbar .show .container {
+.navbar .show, .navbar .collapsing{
   border-top: 3px solid #0072ab;
   margin-top: 3px;
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
