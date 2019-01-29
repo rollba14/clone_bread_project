@@ -19,19 +19,17 @@
   overflow: visible;
 }
 
-/* .navbarWrapper{
-  line-height: 5em;
-  height: auto;
-  width: 100%;
-  overflow: visible;
-  position: relative;
-} */
+.navbar .show .nav-item, .navbar .collapsing .nav-item{
+  padding: 1em 2em;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
 
 .border_div {
   position: absolute;
   width: 100%;
   top: 0;
   left:0;
+  /* 1px off the border */
   height: calc(6.25em - 1px);
   border-bottom: 1px solid black;
   z-index: -1;
