@@ -29,7 +29,7 @@ class MyNavbar extends Component{
   render(){
     return(
       <div>
-        <Navbar color="light" light expand="lg">
+        <Navbar light expand="lg">
           <Link to='/' className="navbar-brand mr-auto">
             Logo Here
           </Link>
@@ -37,26 +37,28 @@ class MyNavbar extends Component{
             <span className="navbar-toggler-icon"></span>
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto text-muted" navbar>
-              <NavItem className="navbar-text">
-                <Link to="/about">What We Do</Link>
-              </NavItem>
-              <NavItem className="navbar-text">
-                <Link to="/home" >Who We Are</Link>
-              </NavItem>
-              <NavItem className="navbar-text">
-                <Link to="/help" >Get Involved</Link>
-              </NavItem>
-              <NavItem className="navbar-text">
-                <Link to="/news" >News & Events</Link>
-              </NavItem>
-              <NavItem className="navbar-text">
-                <Link to="/application" >Apply to Program</Link>
-              </NavItem>
-              <NavItem className="navbar-text">
-                <Link to="/donation" >Donate!</Link>
-              </NavItem>
-            </Nav>
+            <div className="container">
+              <Nav className="ml-auto text-muted" navbar>
+                <NavItem className="navbar-text">
+                  <Link to="/about">What We Do</Link>
+                </NavItem>
+                <NavItem className="navbar-text">
+                  <Link to="/home" >Who We Are</Link>
+                </NavItem>
+                <NavItem className="navbar-text">
+                  <Link to="/help" >Get Involved</Link>
+                </NavItem>
+                <NavItem className="navbar-text">
+                  <Link to="/news" >News & Events</Link>
+                </NavItem>
+                <NavItem className="navbar-text">
+                  <Link to="/application" >Apply to Program</Link>
+                </NavItem>
+                <NavItem className="navbar-text">
+                  <Link to="/donation" >Donate!</Link>
+                </NavItem>
+              </Nav>
+            </div>
           </Collapse>
 
         </Navbar>
