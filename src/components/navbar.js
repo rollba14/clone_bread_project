@@ -30,31 +30,31 @@ class MyNavbar extends Component{
     return(
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="" className="mr-auto">
-            <Link to="/">Logo Here</Link>
-          </NavbarBrand>
+          <Link to='/' className="navbar-brand mr-auto">
+            Logo Here
+          </Link>
           <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
             <span className="navbar-toggler-icon"></span>
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <Link to="/about" onClick={this.toggleNavbar}>What We Do</Link>
+            <Nav className="ml-auto text-muted" navbar>
+              <NavItem className="text-muted">
+                <Link to="/about">What We Do</Link>
               </NavItem>
               <NavItem>
-                <Link to="/home" onClick={this.toggleNavbar}>Who We Are</Link>
+                <Link to="/home" >Who We Are</Link>
               </NavItem>
               <NavItem>
-                <Link to="/help" onClick={this.toggleNavbar}>Get Involved</Link>
+                <Link to="/help" >Get Involved</Link>
               </NavItem>
               <NavItem>
-                <Link to="/news" onClick={this.toggleNavbar}>News & Events</Link>
+                <Link to="/news" >News & Events</Link>
               </NavItem>
               <NavItem>
-                <Link to="/application" onClick={this.toggleNavbar}>Apply to Program</Link>
+                <Link to="/application" >Apply to Program</Link>
               </NavItem>
               <NavItem>
-                <Link to="/donation" onClick={this.toggleNavbar}>Donate!</Link>
+                <Link to="/donation" >Donate!</Link>
               </NavItem>
             </Nav>
           </Collapse>
