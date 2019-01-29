@@ -28,7 +28,6 @@ class MyNavbar extends Component{
   }
   render(){
     return(
-      <div className="navbarWrapper">
         <div>
           <Navbar light expand="lg">
             <Link to='/' className="navbar-brand mr-auto">
@@ -62,8 +61,6 @@ class MyNavbar extends Component{
             </Collapse>
           </Navbar>
         </div>
-
-      </div>
     )
   }
 }
