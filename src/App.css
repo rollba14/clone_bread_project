@@ -4,14 +4,22 @@
   text-decoration: none!important;
 }
 
+.navbar-text {
+  padding-right: 13px;
+}
+
 .navbar {
   line-height: 5em;
   height: auto;
   overflow: visible;
 }
 
-.navbar-text {
-  padding-right: 13px;
+.navbar .collapsing{
+  transition: height .35s linear;
+}
+
+.navbar .collapsing, .navbar .collapse{
+  padding: 2em 2em;
 }
 
 .navbar .show, .collapsing{
