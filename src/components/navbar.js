@@ -37,7 +37,6 @@ class MyNavbar extends Component{
             <span className="navbar-toggler-icon"></span>
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <div className="container">
               <Nav className="ml-auto text-muted" navbar>
                 <NavItem className="navbar-text">
                   <Link to="/about">What We Do</Link>
@@ -58,7 +57,6 @@ class MyNavbar extends Component{
                   <Link to="/donation" >Donate!</Link>
                 </NavItem>
               </Nav>
-            </div>
           </Collapse>
 
         </Navbar>
