@@ -28,38 +28,41 @@ class MyNavbar extends Component{
   }
   render(){
     return(
-      <div>
-        <Navbar light expand="lg">
-          <Link to='/' className="navbar-brand mr-auto">
-            Logo Here
-          </Link>
-          <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
-            <span className="navbar-toggler-icon"></span>
-          </NavbarToggler>
-          <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto text-muted" navbar>
-                <NavItem className="navbar-text">
-                  <Link to="/about">What We Do</Link>
-                </NavItem>
-                <NavItem className="navbar-text">
-                  <Link to="/home" >Who We Are</Link>
-                </NavItem>
-                <NavItem className="navbar-text">
-                  <Link to="/help" >Get Involved</Link>
-                </NavItem>
-                <NavItem className="navbar-text">
-                  <Link to="/news" >News & Events</Link>
-                </NavItem>
-                <NavItem className="navbar-text">
-                  <Link to="/application" >Apply to Program</Link>
-                </NavItem>
-                <NavItem className="navbar-text">
-                  <Link to="/donation" >Donate!</Link>
-                </NavItem>
-              </Nav>
-          </Collapse>
+      <div className="navbarWrapper">
+        <div>
+          <Navbar light expand="lg">
+            <Link to='/' className="navbar-brand mr-auto">
+              Logo Here
+            </Link>
+            <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
+              <span className="navbar-toggler-icon"></span>
+            </NavbarToggler>
+            <div className="border_div"></div>
+            <Collapse isOpen={this.state.isOpen} navbar>
+                <Nav className="ml-auto text-muted" navbar>
+                  <NavItem className="navbar-text">
+                    <Link to="/about">What We Do</Link>
+                  </NavItem>
+                  <NavItem className="navbar-text">
+                    <Link to="/home" >Who We Are</Link>
+                  </NavItem>
+                  <NavItem className="navbar-text">
+                    <Link to="/help" >Get Involved</Link>
+                  </NavItem>
+                  <NavItem className="navbar-text">
+                    <Link to="/news" >News & Events</Link>
+                  </NavItem>
+                  <NavItem className="navbar-text">
+                    <Link to="/application" >Apply to Program</Link>
+                  </NavItem>
+                  <NavItem className="navbar-text">
+                    <Link to="/donation" >Donate!</Link>
+                  </NavItem>
+                </Nav>
+            </Collapse>
+          </Navbar>
+        </div>
 
-        </Navbar>
       </div>
     )
   }
