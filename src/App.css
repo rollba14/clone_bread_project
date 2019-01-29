@@ -1,6 +1,13 @@
+
 .nav-item a{
   color: inherit!important;
   text-decoration: none!important;
+}
+
+.navbar {
+  line-height: 5em;
+  height: auto;
+  overflow: visible;
 }
 
 .navbar-text {
@@ -13,15 +20,8 @@
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
 
-.navbar {
-  line-height: 5em;
-  height: auto;
-  overflow: visible;
-}
-
 .navbar .show .nav-item, .navbar .collapsing .nav-item{
   padding: 1em 1em;
-  margin: 0 2em;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
