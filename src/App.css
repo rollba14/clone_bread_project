@@ -10,7 +10,7 @@
 
 .navbar {
   line-height: 5em;
-  height: auto;
+  max-height: 106px;
   overflow: visible;
 }
 
@@ -20,6 +20,7 @@
 
 .navbar .collapsing, .navbar .collapse{
   padding: 2em 2em;
+  background-color: white;
 }
 
 .navbar .show, .collapsing{
