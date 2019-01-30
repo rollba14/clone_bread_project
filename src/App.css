@@ -54,7 +54,7 @@
   padding-right: 0;
   font-weight: 700;
   font-size: 60px;
-  line-height: 1.6em;
+  line-height: 100%;
   text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0.4)
 }
 
@@ -63,4 +63,12 @@
   background-position: top center;
   background-size: cover;
   background-image: url('./assets/Homepage_Hero_Final-compressor.jpg');
+}
+
+.main .jumbotron-fluid div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+  z-index: 1;
 }

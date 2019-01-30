@@ -6,7 +6,9 @@ const Main = () => {
     <div className='main'>
       <div className="container-fluid">
         <Jumbotron className="jumbotron-fluid text-center text-white">
-          <h3 className="display-4"> Baking Through Barriers</h3>
+          <div>
+            <span className="display-3"> Baking Through Barriers</span>
+          </div>
         </Jumbotron>
       </div>
     </div>
