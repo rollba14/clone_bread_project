@@ -4,13 +4,11 @@ import { Jumbotron } from 'reactstrap';
 const Main = () => {
   return(
     <div className='main'>
-      <div className="container-fluid">
         <Jumbotron className="jumbotron-fluid text-center text-white">
-          <div>
-            <span className="display-3"> Baking Through Barriers</span>
+          <div className="container-fluid">
+            <div className="display-3"> Baking Through Barriers</div>
           </div>
         </Jumbotron>
-      </div>
     </div>
   )
 }
