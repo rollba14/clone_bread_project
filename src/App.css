@@ -49,12 +49,17 @@
 }
 
 .main .container-fluid{
-  background-position: top center;
-  background-image: url('/assets/Homepage_Hero_Final-compressor.jpg');
   padding-left: 0;
   padding-right: 0;
   font-weight: 700;
   font-size: 60px;
   line-height: 1.6em;
   text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0.4)
+}
+
+.main .jumbotron-fluid{
+  min-height: calc(100vh - 120px);
+  background-position: top center;
+  background-size: cover;
+  background-image: url('./assets/Homepage_Hero_Final-compressor.jpg');
 }
