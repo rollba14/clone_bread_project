@@ -1,9 +1,14 @@
 import React from 'react'
+import { Jumbotron } from 'reactstrap';
 
 const Main = () => {
   return(
     <div className='main'>
-      This is the main page
+      <div className="container-fluid">
+        <Jumbotron className="jumbotron-fluid">
+          <h3 className="display-4"> Baking Through Barriers</h3>
+        </Jumbotron>
+      </div>
     </div>
   )
 }

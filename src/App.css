@@ -42,3 +42,9 @@
   border-bottom: 1px solid black;
   z-index: -1;
 }
+
+/* Main.js CSS */
+.main .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
