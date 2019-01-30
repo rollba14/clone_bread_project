@@ -20,6 +20,7 @@
 }
 
 .navbar .show, .collapsing{
+  margin-top: 7px;
   padding: 2em 2em;
   background-color: white;
   line-height: normal;
@@ -38,7 +39,7 @@
   top: 0;
   left:0;
   /* 1px off the border */
-  height: calc(6.25em - 1px);
+  height: 106px;
   border-bottom: 1px solid black;
   z-index: -1;
 }
