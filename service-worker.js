@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/my_projects/clone_bread_project/precache-manifest.6c0b447b3c1ffee6b8fb9d8a86b84d21.js"
+  "/clone_bread_project/precache-manifest.96667211914400fd594b62d3cacad33f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/my_projects/clone_bread_project/index.html", {
+workbox.routing.registerNavigationRoute("/clone_bread_project/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
