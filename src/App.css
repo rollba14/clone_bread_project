@@ -67,8 +67,12 @@
   padding: 140px 100px;
 }
 
-.mild_blue {
+.mild_blue_bg{
   background-color: #0073A7;
+}
+
+.mild_blue_border{
+  border: solid 1.7px #0073A7;
 }
 
 .bootcamp_graduates{
@@ -77,10 +81,6 @@
 
 .our_impact{
   background-color: #95D3DC;
-}
-
-.border-top-3 {
-  border-top: 3px solid;
 }
 
 .text_blue_green {

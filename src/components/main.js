@@ -16,7 +16,7 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <h1 className="text_blue_green">Help for Today. Hope for Tomorrow.</h1>
                 <p className="text-muted">1 in 4 people in the San Francisco Bay area live in poverty. Without connecting to work, they rely on government assistance and experience or are at risk of homelessness throughout adulthood.</p>
-                <div className="border-top-3 border-primary col-5 mx-auto text-white mb-3"> </div>
+                <div className="mild_blue_border col-5 mx-auto text-white mb-3"> </div>
                 <p className="text-muted">The Bread Project has a vision for all motivated individuals to be able to contribute to a stronger community through stable, gainful and fulfilling work. We leverage the power of social enterprise with training, job placement assistance and support services to lead individuals out of poverty.</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Main = () => {
             </div>
 
             {/* Donation message section */}
-            <div className="mild_blue col-12 py-5">
+            <div className="mild_blue_bg col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <h2 className="text-white">Change a person’s life. Donate now.</h2>
                 <p className="text-white">Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
