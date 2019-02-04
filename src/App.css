@@ -104,3 +104,8 @@
 .main p, {
   margin-bottom: .8em;
 }
+
+.main img{
+  width: 100%;
+  height: auto;
+}

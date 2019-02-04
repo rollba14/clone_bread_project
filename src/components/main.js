@@ -1,5 +1,7 @@
 import React from 'react'
 import { Jumbotron } from 'reactstrap';
+import social_enterprise_img  from '../assets/social_enterprise.jpg';
+import tbp_incubate_img from '../assets/tbp_incubate.jpg';
 
 const Main = () => {
   return(
@@ -51,10 +53,12 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <div className="row">
                   <div className="col-md">
+                    <img src={social_enterprise_img} alt="Social Enterprise Image"/>
                     <h3 className="text_blue_green">Our Social Enterprise</h3>
                     <p className="text-muted">We are a nonprofit, but we also run a business. The Bread Project owns and operates a commercial baking facility that provides hands-on skills training for our program participants, creates meaningful jobs for our graduates, and delivers quality products to the community.</p>
                   </div>
                   <div className="col-md">
+                    <img src={tbp_incubate_img} alt="TBP Incubate Image"/>
                     <h3 className="text_blue_green">TBP Incubates</h3>
                     <p className="text-muted">We offer affordable licensed kitchen and storage rental with flexible scheduling to help early stage food businesses grow. In addition to the use of our commercial kitchen in a desirable Berkeley location, our trainees and graduates are available to provide hands-on culinary support.</p>
                   </div>
