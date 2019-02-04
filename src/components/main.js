@@ -54,12 +54,12 @@ const Main = () => {
                 <div className="row">
                   <div className="col-md">
                     <img src={social_enterprise_img} alt="Social Enterprise Image"/>
-                    <h3 className="text_blue_green">Our Social Enterprise</h3>
+                    <h3 className="text_blue_green mb-2">Our Social Enterprise</h3>
                     <p className="text-muted">We are a nonprofit, but we also run a business. The Bread Project owns and operates a commercial baking facility that provides hands-on skills training for our program participants, creates meaningful jobs for our graduates, and delivers quality products to the community.</p>
                   </div>
                   <div className="col-md">
                     <img src={tbp_incubate_img} alt="TBP Incubate Image"/>
-                    <h3 className="text_blue_green">TBP Incubates</h3>
+                    <h3 className="text_blue_green mb-2">TBP Incubates</h3>
                     <p className="text-muted">We offer affordable licensed kitchen and storage rental with flexible scheduling to help early stage food businesses grow. In addition to the use of our commercial kitchen in a desirable Berkeley location, our trainees and graduates are available to provide hands-on culinary support.</p>
                   </div>
                 </div>
@@ -69,17 +69,17 @@ const Main = () => {
             {/* Bootcamp graduates */}
             <div className="bootcamp_graduates col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
-                <h3 className="text_dark_blue">Access to jobs changed the lives of John and Luc</h3>
+                <h3 className="text_dark_blue mb-5">Access to jobs changed the lives of John and Luc</h3>
                 <div className="row">
                   <div className="col-lg">
-                    <h5 className="text-muted">JOHN, Bakery Bootcamp graduate, December 2016</h5>
+                    <h5 className="text-muted mb-4">JOHN, Bakery Bootcamp graduate, December 2016</h5>
                     <p className="text-muted">John was severely depressed for many years after the death of both his parents. The depression lead to an attempted suicide. He was unemployed for almost three years as he worked to rebuild his life. When he came to The Bread Project, he wanted to further build his skills in a new field after having previously worked for over a decade in hardware retail. During the training, he was a mild mannered, and very helpful participant, who worked well with his peers.</p>
 
                     <p className="text-muted">
                     John secured employment at an East Bay Whole Foods Market (WFM) location in less than a week after he completed the Bootcamp. He was awarded “Employee of the Month” during his 8 month with Whole Foods and recently celebrated his first year with the company.</p>
                   </div>
                   <div className="col-lg">
-                    <h5 className="text-muted">LUC, Bakery Bootcamp graduate, December 2017</h5>
+                    <h5 className="text-muted mb-4">LUC, Bakery Bootcamp graduate, December 2017</h5>
                     <p className="text-muted">Luc is an experienced professional with well over a decade of work experience in transportation and customer service. He was referred to TBP by one of our community partner agencies that supports persons whose job search is impacted by criminal justice records. He excelled during The Bakery Bootcamp and distinguished himself as a leader, supporting his peers and going the extra mile to spend additional hours after training to work with the kitchen staff and increase his commercial baking knowledge and skills. We referred Luc to one of our employment partners, Whole Foods Market. Within two weeks of completing the Bootcamp training, he gained employment in the bakery production department at one of their SF locations. Luc feels prepared for his job and is excited about the potential for a new career with Whole Foods, “It’s been going great thanks to the work that The Bread Project put me through”. Luc’s employment goal includes performing well and become a Team Lead at WFM over the next two years.</p>
                     <p className="text-muted">
                       Luc also works with The Bread Project on some of his days off from WFM. For him, it’s an opportunity to support the program that helped him. “I learned so much from the people who put in the time to guide me, so I want to turn around and help someone following the same footsteps, and the most important part is for me to get involved and give back.”
