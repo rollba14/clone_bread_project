@@ -17,9 +17,9 @@ const Main = () => {
             <div className="message col-12 py-5">
               <div className="col-md-8 px-5 px-md-4 mx-auto">
                 <h2 className="text_blue_green">Help for Today. Hope for Tomorrow.</h2>
-                <p className="text-muted">1 in 4 people in the San Francisco Bay area live in poverty. Without connecting to work, they rely on government assistance and experience or are at risk of homelessness throughout adulthood.</p>
+                <p className="text-muted h5">1 in 4 people in the San Francisco Bay area live in poverty. Without connecting to work, they rely on government assistance and experience or are at risk of homelessness throughout adulthood.</p>
                 <div className="mild_blue_border col-5 mx-auto text-white mb-3"> </div>
-                <p className="text-muted">The Bread Project has a vision for all motivated individuals to be able to contribute to a stronger community through stable, gainful and fulfilling work. We leverage the power of social enterprise with training, job placement assistance and support services to lead individuals out of poverty.</p>
+                <p className="text-muted h5">The Bread Project has a vision for all motivated individuals to be able to contribute to a stronger community through stable, gainful and fulfilling work. We leverage the power of social enterprise with training, job placement assistance and support services to lead individuals out of poverty.</p>
               </div>
             </div>
 
@@ -28,10 +28,10 @@ const Main = () => {
               <div className="col-md-8 px-5 px-md-4 mx-auto">
                 <div>
                   <h1 className="text_dark_blue">Our Impact</h1>
-                  <p className="text-white">
+                  <p className="text-white h4">
                     Since 2000, we have been dedicated to changing the trajectory of the lives of low-income individuals with high barriers to employment, putting them on a path toward economic opportunity and a living wage.
                   </p>
-                  <p className="text-white">
+                  <p className="text-white h4">
                     Here is the impact we have made:
                   </p>
                 </div>
@@ -94,9 +94,9 @@ const Main = () => {
             {/* Donation message section */}
             <div className="mild_blue_bg col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
-                <h2 className="text-white">Change a person’s life. Donate now.</h2>
-                <p className="text-white">Individuals like you provide the necessary resources for The Bread Project to prepare individuals for work, and put them on a path to self-sufficiency.</p>
-                <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3 font-weight-bold">DONATE</button>
+                <h1 className="text-white">Change a person’s life. Donate now.</h1>
+                <p className="text-white h3">Individuals like you provide the necessary resources for The Bread Project to prepare individuals for work, and put them on a path to self-sufficiency.</p>
+                <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3 font-weight-bold"><span class="h4">DONATE</span></button>
               </div>
             </div>
           </div>
