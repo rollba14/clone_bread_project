@@ -37,6 +37,20 @@ const Main = () => {
             </div>
           </div>
 
+          // Social enterprise.     TBP Incubates
+          <div className=" col-md-10 px-md-4 mx-auto">
+            <div className="row">
+              <div className="col-md">
+                <h2>Our Social Enterprise</h2>
+                <p> blah blah </p>
+              </div>
+              <div className="col-md">
+                <h2>TBP Incubates</h2>
+                <p> blah blah </p>
+              </div>
+            </div>
+          </div>
+
         </div>
     </div>
   )
