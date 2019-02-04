@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/clone_bread_project/precache-manifest.5cc27c6038f3116e6ccc37ea5f6603de.js"
+  "/clone_bread_project/precache-manifest.175762dd0562a222244b7ece0372c62d.js"
 );
 
 workbox.clientsClaim();
