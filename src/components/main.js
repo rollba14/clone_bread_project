@@ -26,7 +26,9 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <div>
                   <h1>Our Impact</h1>
-                  <p></p>
+                  <p>
+                    Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text
+                  </p>
                 </div>
                 <div className="row">
                   <div className="col-md-3">
@@ -47,11 +49,11 @@ const Main = () => {
                 <div className="row">
                   <div className="col-md">
                     <h2>Our Social Enterprise</h2>
-                    <p> blah blah </p>
+                    <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
                   </div>
                   <div className="col-md">
                     <h2>TBP Incubates</h2>
-                    <p> blah blah </p>
+                    <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
                   </div>
                 </div>
               </div>
@@ -64,11 +66,11 @@ const Main = () => {
                 <div className="row">
                   <div className="col-lg">
                     <h2>JOHN, Bakery Bootcamp graduate, December 2016</h2>
-                    <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
+                    <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
                   </div>
                   <div className="col-lg">
                     <h2>LUC, Bakery Bootcamp graduate, December 2017</h2>
-                    <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+                    <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
                   </div>
                 </div>
               </div>
