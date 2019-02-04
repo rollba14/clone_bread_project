@@ -15,7 +15,7 @@ const Main = () => {
           <div className="row">
             {/* Intro message section*/}
             <div className="message col-12 py-5">
-              <div className="col-md-9 px-5 px-md-4 mx-auto">
+              <div className="col-md-8 px-5 px-md-4 mx-auto">
                 <h2 className="text_blue_green">Help for Today. Hope for Tomorrow.</h2>
                 <p className="text-muted">1 in 4 people in the San Francisco Bay area live in poverty. Without connecting to work, they rely on government assistance and experience or are at risk of homelessness throughout adulthood.</p>
                 <div className="mild_blue_border col-5 mx-auto text-white mb-3"> </div>
@@ -25,7 +25,7 @@ const Main = () => {
 
             {/* Our impact section */}
             <div className="our_impact col-12 py-5">
-              <div className="col-md-9 px-5 px-md-4 mx-auto">
+              <div className="col-md-8 px-5 px-md-4 mx-auto">
                 <div>
                   <h1 className="text_dark_blue">Our Impact</h1>
                   <p className="text-white">
@@ -50,7 +50,7 @@ const Main = () => {
 
             {/* Social enterprise.     TBP Incubates */}
             <div className="col-12 py-5 text-left">
-              <div className="col-md-9 px-5 px-md-4 mx-auto">
+              <div className="col-md-10 px-5 px-md-4 mx-auto">
                 <div className="row">
                   <div className="col-md">
                     <img src={social_enterprise_img} alt="Social Enterprise Image"/>
@@ -68,7 +68,7 @@ const Main = () => {
 
             {/* Bootcamp graduates */}
             <div className="bootcamp_graduates col-12 py-5">
-              <div className="col-md-9 px-5 px-md-4 mx-auto">
+              <div className="col-md-10 px-5 px-md-4 mx-auto">
                 <h3 className="text_dark_blue mb-5">Access to jobs changed the lives of John and Luc</h3>
                 <div className="row">
                   <div className="col-lg">
