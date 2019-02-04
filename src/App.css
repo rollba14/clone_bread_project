@@ -51,7 +51,7 @@
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
 }
 
-.main .container-fluid{
+.main .container-fluid:first-child{
   padding-left: 0;
   padding-right: 0;
   font-weight: 700;

@@ -6,10 +6,10 @@ const Main = () => {
     <div className='main'>
         <Jumbotron className="jumbotron-fluid text-center text-white">
           <div className="container-fluid">
-            <div className="display-3"> Baking Through Barriers</div>
+            <div className=""> Baking Through Barriers</div>
           </div>
         </Jumbotron>
-        <div className="container p-0 m-0 text-center display-5">
+        <div className="container-fluid p-0 m-0 text-center">
           <div className="row">
             {/* Intro message section*/}
             <div className="message col-md-10 px-md-4 mx-auto">
