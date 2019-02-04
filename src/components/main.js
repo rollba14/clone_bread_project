@@ -9,17 +9,18 @@ const Main = () => {
             <div className="display-3"> Baking Through Barriers</div>
           </div>
         </Jumbotron>
-        <div className="container px-md-3 text-center">
-
-          // Intro message section
-          <div className="message col-md-10 px-md-4 mx-auto">
-            <h1 className="display-5">Help for Today. Hope for Tomorrow.</h1>
-            <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
-            <div className="border-top-3 border-primary col-5 mx-auto text-white mb-3"> </div>
-            <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+        <div className="container p-0 m-0 text-center display-5">
+          <div className="row">
+            {/* Intro message section*/}
+            <div className="message col-md-10 px-md-4 mx-auto">
+              <h1 className="">Help for Today. Hope for Tomorrow.</h1>
+              <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+              <div className="border-top-3 border-primary col-5 mx-auto text-white mb-3"> </div>
+              <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+            </div>
           </div>
 
-          // Our impact section
+          {/* Our impact section */}
           <div className="our_impact col-md-10 px-md-4 mx-auto">
             <div>
               <h1>Our Impact</h1>
@@ -37,7 +38,7 @@ const Main = () => {
             </div>
           </div>
 
-          // Social enterprise.     TBP Incubates
+          {/* Social enterprise.     TBP Incubates */}
           <div className=" col-md-10 px-md-4 mx-auto">
             <div className="row">
               <div className="col-md">
@@ -51,7 +52,7 @@ const Main = () => {
             </div>
           </div>
 
-          // Bootcamp graduates
+          {/* Bootcamp graduates */}
           <div className=" col-md-10 px-md-4 mx-auto">
             <h2>Access to jobs changed the lives of John and Luc</h2>
             <div className="row">
@@ -66,7 +67,7 @@ const Main = () => {
             </div>
           </div>
 
-          // Donation message section
+          {/* Donation message section */}
           <div className="mild_blue col-md-10 px-md-4 mx-auto">
             <h2>Change a person’s life. Donate now.</h2>
             <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
