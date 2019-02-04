@@ -57,15 +57,21 @@ const Main = () => {
             <div className="row">
               <div className="col-md">
                 <h2>JOHN, Bakery Bootcamp graduate, December 2016</h2>
-                <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
+                <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
               </div>
               <div className="col-md">
                 <h2>LUC, Bakery Bootcamp graduate, December 2017</h2>
-                <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+                <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
               </div>
             </div>
           </div>
-          
+
+          // Donation message section
+          <div className="mild_blue col-md-10 px-md-4 mx-auto">
+            <h2>Change a person’s life. Donate now.</h2>
+            <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
+            <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3">DONATE NOW</button>
+          </div>
         </div>
     </div>
   )
