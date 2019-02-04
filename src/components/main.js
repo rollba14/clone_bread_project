@@ -26,7 +26,7 @@ const Main = () => {
             {/* Our impact section */}
             <div className="our_impact col-12 py-5">
               <div className="col-md-8 px-5 px-md-4 mx-auto">
-                <div>
+                <div className="mb-5">
                   <h1 className="text_dark_blue">Our Impact</h1>
                   <p className="text-white h4">
                     Since 2000, we have been dedicated to changing the trajectory of the lives of low-income individuals with high barriers to employment, putting them on a path toward economic opportunity and a living wage.
@@ -35,14 +35,25 @@ const Main = () => {
                     Here is the impact we have made:
                   </p>
                 </div>
-                <div className="row">
-                  <div className="col-md-3">
+                <div className="row text-left">
+                  <div className="col-lg-3 col-6 mb-5">
+                    <div className="h1 font-weight-bold mild_blue_text">+1,800</div>
+                    <span className="h5 font-weight-bold mild_blue_text">Individuals Served & Growing</span>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-lg-3 col-6 mb-5">
+                    <div className="h1 font-weight-bold mild_blue_text">85%
+                    </div>
+                    <span className="h5 font-weight-bold mild_blue_text">Job Placement Post-Graduation</span>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-lg-3 col-6 mb-5">
+                    <div className="h1 font-weight-bold mild_blue_text">89%
+                    </div>
+                    <span className="h5 font-weight-bold mild_blue_text">Job Retention Rate</span>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-lg-3 col-6 mb-5">
+                    <div className="h1 font-weight-bold mild_blue_text">30
+                    </div>
+                    <span className="h5 font-weight-bold mild_blue_text">Days to Get a Job</span>
                   </div>
                 </div>
               </div>
