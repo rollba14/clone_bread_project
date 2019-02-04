@@ -83,6 +83,10 @@
   background-color: #EAF7F9;
 }
 
+.bootcamp_graduates p {
+  line-height: 1.4em !important;
+}
+
 .our_impact{
   background-color: #95D3DC;
 }
@@ -99,16 +103,19 @@
   margin-top: .5em;
   margin-bottom: .8em;
   font-weight: bold;
+  line-height: 1.4em;
 }
 
  .main h4, .main h5, .main h6{
   margin-top: .5em;
   margin-bottom: .8em;
   font-weight: bold;
+  line-height: 1.4em;
  }
 
-.main p, {
+.main p {
   margin-bottom: .8em;
+  line-height: 1.9em;
 }
 
 .main img{
