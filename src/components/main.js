@@ -14,7 +14,7 @@ const Main = () => {
             {/* Intro message section*/}
             <div className="message col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
-                <h1 className="">Help for Today. Hope for Tomorrow.</h1>
+                <h1 className="text_blue_green">Help for Today. Hope for Tomorrow.</h1>
                 <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
                 <div className="border-top-3 border-primary col-5 mx-auto text-white mb-3"> </div>
                 <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
@@ -25,7 +25,7 @@ const Main = () => {
             <div className="our_impact col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <div>
-                  <h1>Our Impact</h1>
+                  <h1 className="text_dark_blue">Our Impact</h1>
                   <p className="text-white">
                     Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text
                   </p>
@@ -48,11 +48,11 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <div className="row">
                   <div className="col-md">
-                    <h2>Our Social Enterprise</h2>
+                    <h2 className="text_blue_green">Our Social Enterprise</h2>
                     <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
                   </div>
                   <div className="col-md">
-                    <h2>TBP Incubates</h2>
+                    <h2 className="text_blue_green">TBP Incubates</h2>
                     <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const Main = () => {
             {/* Bootcamp graduates */}
             <div className="bootcamp_graduates col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
-                <h2>Access to jobs changed the lives of John and Luc</h2>
+                <h2 className="text_dark_blue">Access to jobs changed the lives of John and Luc</h2>
                 <div className="row">
                   <div className="col-lg">
                     <h2>JOHN, Bakery Bootcamp graduate, December 2016</h2>
