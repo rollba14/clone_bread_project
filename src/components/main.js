@@ -52,7 +52,7 @@ const Main = () => {
             </div>
 
             {/* Bootcamp graduates */}
-            <div className=" col-md-12 px-md-5 mx-auto">
+            <div className="bootcamp_graduates col-md-12 px-md-5 mx-auto">
               <h2>Access to jobs changed the lives of John and Luc</h2>
               <div className="row">
                 <div className="col-md">
