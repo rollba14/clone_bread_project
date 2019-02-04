@@ -51,6 +51,21 @@ const Main = () => {
             </div>
           </div>
 
+          // Bootcamp graduates
+          <div className=" col-md-10 px-md-4 mx-auto">
+            <h2>Access to jobs changed the lives of John and Luc</h2>
+            <div className="row">
+              <div className="col-md">
+                <h2>JOHN, Bakery Bootcamp graduate, December 2016</h2>
+                <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
+              </div>
+              <div className="col-md">
+                <h2>LUC, Bakery Bootcamp graduate, December 2017</h2>
+                <p> Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text </p>
+              </div>
+            </div>
+          </div>
+          
         </div>
     </div>
   )
