@@ -72,14 +72,14 @@ const Main = () => {
                 <h3 className="text_dark_blue mb-5">Access to jobs changed the lives of John and Luc</h3>
                 <div className="row">
                   <div className="col-lg">
-                    <h5 className="text-muted mb-4">JOHN, Bakery Bootcamp graduate, December 2016</h5>
+                    <h5 className="text-muted mb-5">JOHN, Bakery Bootcamp graduate, December 2016</h5>
                     <p className="text-muted text-left">John was severely depressed for many years after the death of both his parents. The depression lead to an attempted suicide. He was unemployed for almost three years as he worked to rebuild his life. When he came to The Bread Project, he wanted to further build his skills in a new field after having previously worked for over a decade in hardware retail. During the training, he was a mild mannered, and very helpful participant, who worked well with his peers.</p>
 
                     <p className="text-muted text-left">
                     John secured employment at an East Bay Whole Foods Market (WFM) location in less than a week after he completed the Bootcamp. He was awarded “Employee of the Month” during his 8 month with Whole Foods and recently celebrated his first year with the company.</p>
                   </div>
                   <div className="col-lg">
-                    <h5 className="text-muted mb-4">LUC, Bakery Bootcamp graduate, December 2017</h5>
+                    <h4 className="text-muted mb-5">LUC, Bakery Bootcamp graduate, December 2017</h4>
                     <p className="text-muted text-left">
                       Luc is an experienced professional with well over a decade of work experience in transportation and customer service. He was referred to TBP by one of our community partner agencies that supports persons whose job search is impacted by criminal justice records. He excelled during The Bakery Bootcamp and distinguished himself as a leader, supporting his peers and going the extra mile to spend additional hours after training to work with the kitchen staff and increase his commercial baking knowledge and skills. We referred Luc to one of our employment partners, Whole Foods Market. Within two weeks of completing the Bootcamp training, he gained employment in the bakery production department at one of their SF locations. Luc feels prepared for his job and is excited about the potential for a new career with Whole Foods, “It’s been going great thanks to the work that The Bread Project put me through”. Luc’s employment goal includes performing well and become a Team Lead at WFM over the next two years.
                     </p>
