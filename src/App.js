@@ -17,13 +17,13 @@ class App extends Component {
         <div className="App">
           <Navbar/>
           <Switch>
-            <Route exact path='/my_projects/clone_bread_project' component={Main}/>
-            <Route path='/my_projects/about' component={About}/>
-            <Route path='/my_projects/home' component={Home}/>
-            <Route path='/my_projects/help' component={Help}/>
-            <Route path='/my_projects/news' component={News}/>
-            <Route path='/my_projects/application' component={Application}/>
-            <Route path='/my_projects/donation' component={Donation}/>
+            <Route exact path='/clone_bread_project' component={Main}/>
+            <Route path='/clone_bread_project/about' component={About}/>
+            <Route path='/clone_bread_project/home' component={Home}/>
+            <Route path='/clone_bread_project/help' component={Help}/>
+            <Route path='/clone_bread_project/news' component={News}/>
+            <Route path='/clone_bread_project/application' component={Application}/>
+            <Route path='/clone_bread_project/donation' component={Donation}/>
           </Switch>
         </div>
       </BrowserRouter>

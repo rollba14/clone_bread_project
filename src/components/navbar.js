@@ -30,7 +30,7 @@ class MyNavbar extends Component{
     return(
         <div>
           <Navbar light expand="lg">
-            <Link to='/' className="navbar-brand mr-auto">
+            <Link to='/clone_bread_project' className="navbar-brand mr-auto">
               Logo Here
             </Link>
             <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
@@ -40,22 +40,22 @@ class MyNavbar extends Component{
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto text-muted" navbar>
                   <NavItem className="navbar-text">
-                    <Link to="/about">What We Do</Link>
+                    <Link to="/clone_bread_project/about">What We Do</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/home" >Who We Are</Link>
+                    <Link to="/clone_bread_project/home" >Who We Are</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/help" >Get Involved</Link>
+                    <Link to="/clone_bread_project/help" >Get Involved</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/news" >News & Events</Link>
+                    <Link to="/clone_bread_project/news" >News & Events</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/application" >Apply to Program</Link>
+                    <Link to="/clone_bread_project/application" >Apply to Program</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/donation" >Donate!</Link>
+                    <Link to="/clone_bread_project/donation" >Donate!</Link>
                   </NavItem>
                 </Nav>
             </Collapse>
