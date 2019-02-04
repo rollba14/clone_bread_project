@@ -96,7 +96,7 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <h2 className="text-white">Change a person’s life. Donate now.</h2>
                 <p className="text-white">Individuals like you provide the necessary resources for The Bread Project to prepare individuals for work, and put them on a path to self-sufficiency.</p>
-                <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3">DONATE NOW</button>
+                <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3 font-weight-bold">DONATE</button>
               </div>
             </div>
           </div>
