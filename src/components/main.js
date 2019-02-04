@@ -26,7 +26,7 @@ const Main = () => {
               <div className="col-md-9 px-5 px-md-4 mx-auto">
                 <div>
                   <h1>Our Impact</h1>
-                  <p>
+                  <p className="text-white">
                     Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text
                   </p>
                 </div>
@@ -79,8 +79,8 @@ const Main = () => {
             {/* Donation message section */}
             <div className="mild_blue col-12 py-5">
               <div className="col-md-9 px-5 px-md-4 mx-auto">
-                <h2>Change a person’s life. Donate now.</h2>
-                <p>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
+                <h2 className="text-white">Change a person’s life. Donate now.</h2>
+                <p className="text-white">Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text</p>
                 <button type="button" className="btn btn-light text-primary rounded-pill px-4 py-3">DONATE NOW</button>
               </div>
             </div>
