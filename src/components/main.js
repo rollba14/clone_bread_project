@@ -79,7 +79,7 @@ const Main = () => {
                     John secured employment at an East Bay Whole Foods Market (WFM) location in less than a week after he completed the Bootcamp. He was awarded “Employee of the Month” during his 8 month with Whole Foods and recently celebrated his first year with the company.</p>
                   </div>
                   <div className="col-lg">
-                    <h4 className="text-muted mb-5">LUC, Bakery Bootcamp graduate, December 2017</h4>
+                    <h5 className="text-muted mb-5">LUC, Bakery Bootcamp graduate, December 2017</h5>
                     <p className="text-muted text-left">
                       Luc is an experienced professional with well over a decade of work experience in transportation and customer service. He was referred to TBP by one of our community partner agencies that supports persons whose job search is impacted by criminal justice records. He excelled during The Bakery Bootcamp and distinguished himself as a leader, supporting his peers and going the extra mile to spend additional hours after training to work with the kitchen staff and increase his commercial baking knowledge and skills. We referred Luc to one of our employment partners, Whole Foods Market. Within two weeks of completing the Bootcamp training, he gained employment in the bakery production department at one of their SF locations. Luc feels prepared for his job and is excited about the potential for a new career with Whole Foods, “It’s been going great thanks to the work that The Bread Project put me through”. Luc’s employment goal includes performing well and become a Team Lead at WFM over the next two years.
                     </p>
