@@ -66,3 +66,7 @@
   background-image: url('./assets/Homepage_Hero_Final-compressor.jpg');
   padding: 140px 100px;
 }
+
+.border-top-3 {
+  border-top: 3px solid;
+}
