@@ -141,3 +141,8 @@
   line-height: 1.4em;
   margin-bottom: 1em;
 }
+
+.home img{
+  width: 100%;
+  height: auto;
+}

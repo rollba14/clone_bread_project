@@ -1,5 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
+import bakery_p1_img from '../assets/BakeryBootcamp_Body_1-compressor.jpg';
+import bakery_p2_img from '../assets/BakeryBootcamp_Body_2-compressor.jpg';
 
 const Home = () => {
   return(
@@ -18,6 +20,7 @@ const Home = () => {
               <p className="text-muted h5">The Bakery Production Bootcamp is a 3-week job training program. It is FREE for low income adults in the San Francisco Bay Area. We employ an intensive training curriculum comprised of two main components – Commercial Baking Training and Workforce Essential Life Skills.</p>
               <div className="row col-md-10 mx-auto bg-light p-4">
                 <div className="col-md-6 col-12">
+                  <img src={bakery_p1_img} alt="Bakery Image 1"/>
                   <h4 className="mild_blue_text font-weight-bold">Participants Gain</h4>
                   <p className="mild_blue_text font-weight-bold">1.</p>
                   <p className="text-muted h6">60+ hours of intensive job training in the Fundamentals of Commercial Bakery Production</p>
@@ -29,6 +32,7 @@ const Home = () => {
                   <p className="text-muted h6">Updated Résumé & Job Interviewing Practice</p>
                 </div>
                 <div className="col-md-6 col-12">
+                  <img src={bakery_p2_img} alt="Bakery Image 1"/>
                   <h4 className="mild_blue_text font-weight-bold">Graduates Receive</h4>
                   <p className="mild_blue_text font-weight-bold">1.</p>
                   <p className="text-muted h6">Bakery Bootcamp Certificate of Completion</p>
