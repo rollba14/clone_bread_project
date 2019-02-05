@@ -18,8 +18,8 @@ const Home = () => {
             <div className="col-md-10 px-5 px-md-4 mx-auto">
               <h3 className="h1 mild_blue_text font-weight-bold">What We Offer</h3>
               <p className="text-muted h5">The Bakery Production Bootcamp is a 3-week job training program. It is FREE for low income adults in the San Francisco Bay Area. We employ an intensive training curriculum comprised of two main components – Commercial Baking Training and Workforce Essential Life Skills.</p>
-              <div className="row col-md-10 mx-auto bg-light p-4">
-                <div className="col-md-6 col-12">
+              <div className="row col-md-9 mx-auto bg-light p-4 justify-content-around">
+                <div className="col-md-5 col-12">
                   <img src={bakery_p1_img} alt="Bakery Image 1"/>
                   <h4 className="mild_blue_text font-weight-bold">Participants Gain</h4>
                   <p className="mild_blue_text font-weight-bold">1.</p>
@@ -31,7 +31,7 @@ const Home = () => {
                   <p className="mild_blue_text font-weight-bold">4.</p>
                   <p className="text-muted h6">Updated Résumé & Job Interviewing Practice</p>
                 </div>
-                <div className="col-md-6 col-12">
+                <div className="col-md-5 col-12">
                   <img src={bakery_p2_img} alt="Bakery Image 1"/>
                   <h4 className="mild_blue_text font-weight-bold">Graduates Receive</h4>
                   <p className="mild_blue_text font-weight-bold">1.</p>
