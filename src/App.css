@@ -142,6 +142,11 @@
   margin-bottom: 1em;
 }
 
+.home .what_we_offer .bakery_program_info{
+  line-height: 2em;
+  margin-bottom: 3em;
+}
+
 .home img{
   width: 100%;
   height: auto;
