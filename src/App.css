@@ -60,11 +60,11 @@
 }
 
 .main .jumbotron-fluid{
-  min-height: calc(100vh - 120px);
+  height: calc(100vh - 120px);
   background-position: top center;
   background-size: cover;
   background-image: url('./assets/Homepage_Hero_Final-compressor.jpg');
-  padding: 140px 100px;
+  padding: 100px 100px;
 }
 
 .mild_blue_bg{
