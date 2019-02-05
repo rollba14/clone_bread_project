@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron } from 'reactstrap';
 import bakery_p1_img from '../assets/BakeryBootcamp_Body_1-compressor.jpg';
 import bakery_p2_img from '../assets/BakeryBootcamp_Body_2-compressor.jpg';
+import bakery_p3_img from '../assets/BakeryBootcamp_Body_3-compressor.jpg';
 
 const Home = () => {
   return(
@@ -51,7 +52,24 @@ const Home = () => {
             </div>
           </div>
 
-          <div>
+          <div className="col-12 py-5">
+            <div className="col-md-10 px-5 px-md-4 mx-auto">
+              <h2 className="mild_blue_text font-weight-bold">Where & When</h2>
+              <div className="row">
+                <div className="col-md-6 col-8 mx-auto">
+                  <img src={bakery_p3_img} alt="Bakery Image P3"/>
+                </div>
+                <div className="col-md-6 col-12 mx-auto">
+                  <p className="font-weight-bold">Training Hours</p>
+                  <p>Mondays – Fridays 9:00am – 1:00pm</p>
+                  <br/>
+                  <p className="font-weight-bold">Location</p>
+                  <p>1615 University Ave</p>
+                  <p>Berkeley, CA 94703</p>
+                  <p className="text-black-50">(Entrance via California St)</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div>
