@@ -136,3 +136,8 @@
 .home .what_we_offer{
   background-color: #EBF7F9;
 }
+
+.home .what_we_offer p{
+  line-height: 2.5em;
+  margin-bottom: 2em;
+}
