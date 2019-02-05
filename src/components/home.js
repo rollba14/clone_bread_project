@@ -73,9 +73,9 @@ const Home = () => {
           </div>
 
           <div className="mild_blue_bg col-12 py-5">
-            <div className="col-md-9 px-5 px-md-4 mx-auto">
-              <h2 className="text-white">Get Started</h2>
-              <p className="text-white h3">The process is easy to apply – complete an application and participate in an intake interview with a member of The Bread Project program staff.</p>
+            <div className="col-md-10 px-5 px-md-4 mx-auto">
+              <h2 className="text-white h1">Get Started</h2>
+              <p className="text-white h3 mb-4">The process is easy to apply – complete an application and participate in an intake interview with a member of The Bread Project program staff.</p>
               <a className="btn btn-light rounded-pill px-4 py-3 "><span className="h4 mild_blue_text font-weight-bold">SEE CLASS SCHEDULE</span></a>
             </div>
           </div>
