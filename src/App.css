@@ -99,14 +99,14 @@
   color: #0073A7;
 }
 
-.main h1, .main h2, .main h3{
+h1, h2, h3{
   margin-top: .5em;
   margin-bottom: .8em;
   font-weight: bold;
   line-height: 1.4em;
 }
 
- .main h4, .main h5, .main h6{
+h4, h5, h6{
   margin-top: .5em;
   margin-bottom: .8em;
   font-weight: bold;
