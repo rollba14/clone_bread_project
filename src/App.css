@@ -132,3 +132,7 @@
   background-image: url('./assets/BakeryBootcamp_Hero_color-compressor.jpg');
   padding: 140px 100px;
 }
+
+.home .what_we_offer{
+  background-color: #EBF7F9;
+}
