@@ -106,7 +106,14 @@ h1 {
   line-height: 1.4em;
 }
 
-h2, h3, h4, h5, h6{
+h2{
+  margin-top: .5em;
+  margin-bottom: 1em !important;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+h3, h4, h5, h6{
   margin-top: .5em;
   margin-bottom: .8em;
   font-weight: bold;
@@ -150,4 +157,8 @@ h2, h3, h4, h5, h6{
 .home img{
   width: 100%;
   height: auto;
+}
+
+.home p {
+  line-height: 1.5em !important;
 }
