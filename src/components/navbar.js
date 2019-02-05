@@ -40,10 +40,10 @@ class MyNavbar extends Component{
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto text-muted" navbar>
                   <NavItem className="navbar-text">
-                    <Link to="/clone_bread_project/about">What We Do</Link>
+                    <Link to="/clone_bread_project/home">What We Do</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
-                    <Link to="/clone_bread_project/home" >Who We Are</Link>
+                    <Link to="/clone_bread_project/about" >Who We Are</Link>
                   </NavItem>
                   <NavItem className="navbar-text">
                     <Link to="/clone_bread_project/help" >Get Involved</Link>
