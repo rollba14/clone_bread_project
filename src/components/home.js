@@ -61,8 +61,8 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 col-12 mx-auto">
                   <p className="text-muted font-weight-bold h5">Training Hours</p>
-                  <p className="text-muted h5">Mondays – Fridays 9:00am – 1:00pm</p>
-                  <br/>
+                  <p className="text-muted h5 mb-5">Mondays – Fridays 9:00am – 1:00pm</p>
+
                   <p className="text-muted font-weight-bold h5">Location</p>
                   <p className="text-muted h5">1615 University Ave</p>
                   <p className="text-muted h5">Berkeley, CA 94703</p>
