@@ -165,3 +165,7 @@ h3, h4, h5, h6{
 a:visited, a:hover, a:active {
   text-decoration: none;
 }
+
+.btn-light:hover{
+  background-color: #f8f9fa;
+}
