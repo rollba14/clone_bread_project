@@ -65,6 +65,20 @@
   background-color: #0073A7;
 }
 
+.btn.mild_blue_bg{
+  background-color: #0073A7;
+  border: 3px solid #f8f9fa !important;
+}
+
+.btn.mild_blue_bg:hover{
+  border: 3px solid #0073A7 !important;
+}
+
+.light-bg:hover{
+  background-color: #f8f9fa;
+  border: 3px solid #f8f9fa !important;
+}
+
 .mild_blue_border{
   border: solid 1.7px #0073A7;
 }
