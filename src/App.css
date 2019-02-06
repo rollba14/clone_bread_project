@@ -189,3 +189,8 @@ a:visited, a:hover, a:active {
   background-color: #f8f9fa;
   border: 3px solid #f8f9fa !important;
 }
+
+/* Bootcamp Schedule */
+.bootcamp_schedule tbody{
+  font-size: 80%;
+}
