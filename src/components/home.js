@@ -97,7 +97,7 @@ const Home = () => {
                   <div><a className="btn mild_blue_bg rounded-pill px-4 py-1 mb-4"><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
                   <a href="#">See Eligibility Information</a>
                 </div>
-                <div className="col-md-8 col-12 mx-auto">
+                <div className="col-lg-8 col-12 mx-auto">
                   <Bootcamp_Schedule/>
                 </div>
               </div>

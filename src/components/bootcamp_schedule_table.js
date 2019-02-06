@@ -7,7 +7,7 @@ const Bootcamp_Schedule = () => {
         <h5 className="mild_blue_text">Upcoming Bakery Bootcamps</h5>
         Bakery Production Bootcamps run each month beginning in September all way the through June of the following year.
       </div>
-      <table className="table table-sm text-muted">
+      <table className="table table-sm table-responsive-sm text-muted">
         <thead>
          <tr>
            <th >Bootcamp Cohort</th>
