@@ -172,3 +172,7 @@ h3, h4, h5, h6{
 .light_blue_bg{
   background-color: #EBF7F9;
 }
+
+a:visited, a:hover, a:active {
+  text-decoration: none;
+}
