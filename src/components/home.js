@@ -83,18 +83,17 @@ const Home = () => {
           <div className="bootcamps col-12 py-5">
             <div className="col-md-10 px-5 px-md-4 mx-auto">
               <div className="row">
-                <div className="col-md-4 col-12 mx-auto">
-                To schedule an appointment for an intake interview, contact us at:
-Email: program@breadproject.org
-Office: 510.594.1702
-Mobile: 510.418.0617
-
-Interviews take place on Wednesdays and Thursdays between 12:00pm – 3:00pm
-
-Certain applicants may be required to do a 2-hour kitchen exercise to complete your application.
-
-Our program has certain eligibility and documentation requirements
-                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1 "><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
+                <div className="col-lg-4 col-12 mx-auto text-muted">
+                  <p className="font-weight-bold">To schedule an appointment for an intake interview, contact us at:</p>
+                  <p>Email: <a href="" className="mild_blue_text">program@breadproject.org</a></p>
+                  <p>Office: <a href="" className="mild_blue_text">510.594.1702</a></p>
+                  <p>Mobile: <a href="" className="mild_blue_text">510.418.0617</a></p>
+                  <div className="mild_blue_border col-5 mx-auto text-white mb-3"> </div>
+                  <p>Interviews take place on <span className="font-weight-bold">Wednesdays</span> and <span className="font-weight-bold">Thursdays</span> between <span className="font-weight-bold">12:00pm – 3:00pm</span></p>
+                  <p className="font-weight-lighter">Certain applicants may be required to do a 2-hour kitchen exercise to complete your application.</p>
+                  <div className="mild_blue_border col-5 mx-auto text-white mb-3"> </div>
+                  <p>Our program has certain eligibility and documentation requirements</p>
+                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1 mb-4"><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
                   <a href="">See Eligibility Information</a>
                 </div>
                 <div className="col-md-8 col-12 mx-auto">
