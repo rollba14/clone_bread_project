@@ -12,7 +12,7 @@ const Bootcamp_Schedule = () => {
         <thead>
          <tr>
            <th >Bootcamp Cohort</th>
-           <th colspan="2">Training Start Date</th>
+           <th colSpan="2">Training Start Date</th>
            <th >Mock Interview (Friday)</th>
            <th >Graduation & End Date (Fridays)</th>
          </tr>
@@ -89,10 +89,12 @@ const Bootcamp_Schedule = () => {
             <td>6/21/2019</td>
           </tr>
           <tr>
-            <th colspan="5">
+            <th colSpan="5">
             10 Bootcamps Projected for FY19 Graduations are on Fridays, Starting at 12pm</th>
           </tr>
-            <td></td>
+          <tr>
+            <td> </td>
+          </tr>
         </tbody>
       </table>
       </small>
