@@ -7,6 +7,7 @@ const Bootcamp_Schedule = () => {
         <h5 className="mild_blue_text">Upcoming Bakery Bootcamps</h5>
         Bakery Production Bootcamps run each month beginning in September all way the through June of the following year.
       </div>
+      <small>
       <table className="table table-sm table-responsive-sm text-muted">
         <thead>
          <tr>
@@ -94,6 +95,7 @@ const Bootcamp_Schedule = () => {
             <td></td>
         </tbody>
       </table>
+      </small>
       <div className="mx-auto px-5 pt-2 pb-5">
 					<p>Questions? Contact our program staff at <a href="#" className="mild_blue_text">510.594.1702</a> or email us at <a href="#" className="mild_blue_text">program@breadproject.org</a>.
           <br/>We are happy to help you!</p>
