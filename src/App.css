@@ -166,6 +166,12 @@ a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.btn-light:hover{
+.light-bg{
   background-color: #f8f9fa;
+  border: 3px solid #0073A7 !important;
+}
+
+.light-bg:hover{
+  background-color: #f8f9fa;
+  border: 3px solid #f8f9fa !important;
 }
