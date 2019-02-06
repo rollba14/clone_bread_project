@@ -29,14 +29,13 @@ class MyNavbar extends Component{
   render(){
     return(
         <div>
-          <Navbar light expand="lg">
+          <Navbar light expand="lg" className="fixed-top">
             <Link to='/clone_bread_project' className="navbar-brand mr-auto">
               Logo Here
             </Link>
             <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
               <span className="navbar-toggler-icon"></span>
             </NavbarToggler>
-            <div className="border_div"></div>
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto text-muted" navbar>
                   <NavItem className="navbar-text">

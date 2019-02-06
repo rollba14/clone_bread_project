@@ -1,3 +1,6 @@
+.App{
+  margin-top: 106px;
+}
 
 .nav-item a{
   color: inherit!important;
@@ -14,6 +17,8 @@
   max-height: 106px;
   overflow: visible;
   z-index: 9999;
+  background-color: white;
+  border-bottom: 1px solid rgba(0,0,0,.1);;
 }
 
 .navbar .collapsing{
