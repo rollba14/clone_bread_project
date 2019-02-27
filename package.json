@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://hmliao14.github.io/clone_bread_project",
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "node": "^11.8.0",
     "react": "^16.7.0",
