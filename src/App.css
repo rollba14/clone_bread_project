@@ -194,6 +194,10 @@ a:visited, a:hover, a:active {
   background-color: #95D3DC;
 }
 
+.light_darker_text{
+  color: #95D3DC;
+}
+
 /* Bootcamp Schedule */
 .bootcamp_schedule tbody{
   font-size: 80%;
@@ -216,4 +220,8 @@ a:visited, a:hover, a:active {
 
 .about .goal p{
   line-height: 2em;
+}
+
+.about .staff p{
+  line-height: 1.4em;
 }
