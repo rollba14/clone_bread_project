@@ -14,7 +14,7 @@ class About extends Component{
 
   render(){
     const staff_elements = this.state.staff.map(s=>{
-      return (<Staff staff={s}/>)
+      return (<Staff staff={s} key={s.name}/>)
     })
     return(
       <div className='about'>
