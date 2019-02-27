@@ -194,3 +194,12 @@ a:visited, a:hover, a:active {
 .bootcamp_schedule tbody{
   font-size: 80%;
 }
+
+/* About Page */
+.about img{
+  width: 100%;
+}
+
+.about .vision p{
+  line-height: 1.9em;
+}
