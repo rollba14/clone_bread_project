@@ -1,5 +1,6 @@
 import React from 'react';
 import about_banner_img from '../assets/WhoWeAre_Hero-compressor.jpg';
+import Infographic_compressor from "../assets/Infographic-compressor.jpg"
 
 const About = () => {
   return(
@@ -33,6 +34,19 @@ const About = () => {
               </p>
             </div>
           </div>
+
+          <div className="vision col-12 py-5 light_darker_bg">
+            <div className="col-md-10 px-5 px-md-4 mx-auto">
+              <h3 className="pb-3 pt-4 h1 mild_blue_text">Our Goals</h3>
+              <p className="text-white h4">
+                We are proud of our accomplishments to date, but more work needs to be done. As income inequality continues to increase in the Bay Area, our work is even more important. Over the next five years we are committed to growing our programs and scaling our social enterprise.
+              </p>
+            <div className="col-7 mx-auto">
+              <img src={Infographic_compressor} alt="Infographic-compressor Image"/>
+            </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
