@@ -203,3 +203,9 @@ a:visited, a:hover, a:active {
 .about .vision p{
   line-height: 1.9em;
 }
+
+.about .history p{
+  line-height: 1.8em;
+  text-align: left;
+  font-size: 105%;
+}

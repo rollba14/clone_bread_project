@@ -22,9 +22,15 @@ const About = () => {
             </div>
           </div>
 
-          <div className="History col-12 py-5">
-            <div className="col-md-8 px-5 px-md-4 mx-auto">
-              hi
+          <div className="history col-12 py-5 mild_blue_bg">
+            <div className="col-md-10 px-5 px-md-4 mx-auto">
+              <h1 className="p-5 text-white">Our History</h1>
+              <p className="text-white">
+                The Bread Project was founded as a California nonprofit 501(c)(3) public benefit corporation in December 2000. Lucie Buchbinder and Susan Phillips, specialists in subsidized housing, created the organization to help low-income housing tenants obtain job skills training and become self-sufficient. After a successful beginning at the San Francisco Baking Institute in South San Francisco, The Bread Project transferred to the East Bay and partnered with Berkeley Adult School and Oakland Unified School District Adult and Career Education.
+              </p>
+              <p className="text-white">
+                With growth came the opportunity for The Bread Project to operate its own training facility and wholesale bakery. In 2010, we moved to Emeryville. In 2014, the award-winning 3-week Bakery Bootcamp™ was established to offer a quicker pathway to employment. In 2015, The Bread Project moved again to its current facility – zoned for both retail and wholesale operations –in Berkeley, California. During our 18-year history, we have served over 1,800 low-income individuals. Today 90% of graduates find jobs, and average time to employment is only one month.
+              </p>
             </div>
           </div>
         </div>
