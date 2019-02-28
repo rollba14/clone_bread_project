@@ -40,6 +40,10 @@
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+.lh_1_9{
+  line-height: 1.9em;
+}
+
 /* Main.js CSS */
 .main {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
@@ -224,4 +228,9 @@ a:visited, a:hover, a:active {
 
 .about .staff p{
   line-height: 1.4em;
+}
+
+/* Help Page */
+.help img{
+  width: 100%;
 }
