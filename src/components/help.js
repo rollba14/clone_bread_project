@@ -9,8 +9,8 @@ const Help = () => {
             <div className="col-md-10 px-5 px-md-4 mx-auto">
               <h1 className="p-3 mild_blue_text">Time + Talent + Treasure = Impact</h1>
               <img src={require('../assets/help_involve.jpg')} alt="Help Involve"/>
-              <h2 className="p-3 mild_blue_text">Donate</h2>
-              <div className="col-md-10 mx-auto text-muted h5">
+              <h4 className="pt-4 pb-3 h2 mild_blue_text font-weight-bold">Donate</h4>
+              <div className="col-md-10 mx-auto text-muted h5 pb-3">
                 <p className="lh_1_9">
                   Every gift helps us create opportunity for low income individuals with high barriers to employments. Currently, 38% of The Bread Project clients are refugees and immigrants, 32% are reentry and 100% live below the federal poverty level. Donate online here!
                 </p>
