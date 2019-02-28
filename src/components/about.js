@@ -6,15 +6,36 @@ import Infographic_compressor from "../assets/Infographic-compressor.jpg"
 class About extends Component{
   constructor(props){
     super(props);
-    var staff = require('../staff.json');
+    var people = require('../people.json');
     this.state = {
-      staff
+      staff: people.staff,
+      directors: people.directors,
+      advisory_council: people.advisory_council
     }
   }
 
   render(){
     const staff_elements = this.state.staff.map(s=>{
       return (<Staff staff={s} key={s.name}/>)
+    })
+    const directors_elements = this.state.directors.map(d=>{
+      return (
+        <div className="council col-12 col-md-4" key={d.name}>
+          <p className="mild_blue_text font-weight-bold h4 mt-3">{d.name}</p>
+          <h5 className="light_darker_text h5">{d.role}
+          </h5>
+          <h5 className="light_darker_text h5">{d.title}
+          </h5>
+          <a className="light_darker_text" href={d.linkedin} target="_blank">{d.linkedin? "LinkedIn":""}</a>
+        </div>
+      )
+    })
+    const council_elements = this.state.advisory_council.map(a=>{
+      return (
+        <div className="council" key={a.name}>
+
+        </div>
+      )
     })
     return(
       <div className='about'>
@@ -64,8 +85,12 @@ class About extends Component{
               <div className="col-md-10 px-5 px-md-4 mx-auto">
                 <h2 className="p-4 mild_blue_text">Our Staff</h2>
 
-                <div className="row">
+                <div className="row mb-5">
                   {staff_elements}
+                </div>
+                <h2 className="p-5 mild_blue_text h1 font-weight-bold">The Board of Directors</h2>
+                <div className="row">
+                  {directors_elements}
                 </div>
               </div>
             </div>
