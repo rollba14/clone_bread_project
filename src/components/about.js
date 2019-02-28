@@ -21,7 +21,7 @@ class About extends Component{
     const directors_elements = this.state.directors.map(d=>{
       return (
         <div className="council col-12 col-md-4" key={d.name}>
-          <p className="mild_blue_text font-weight-bold h4 mt-3">{d.name}</p>
+          <p className="light_darker_text font-weight-bold h4 mt-3">{d.name}</p>
           <h5 className="light_darker_text h5">{d.role}
           </h5>
           <h5 className="light_darker_text h5">{d.title}
@@ -46,7 +46,7 @@ class About extends Component{
             {/* Intro message section*/}
             <div className="vision col-12 pt-4 pb-3">
               <div className="col-md-10 px-5 px-md-4 mx-auto">
-                <h2 className="p-3 mild_blue_text">Our Vision</h2>
+                <h2 className="p-3 light_darker_text">Our Vision</h2>
                 <p className="text-muted h5">
                   The Bread Project’s vision is to lead work-readiness, employment support & professional development programs for marginalized individuals in the San Francisco Bay Area, and to be a model for this work nationwide.
                 </p>
