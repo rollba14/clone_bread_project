@@ -20,7 +20,7 @@ class About extends Component{
     })
     const directors_elements = this.state.directors.map(d=>{
       return (
-        <div className="council col-12 col-md-4" key={d.name}>
+        <div className="directors col-12 col-md-4" key={d.name}>
           <p className="light_darker_text font-weight-bold h4 mt-3">{d.name}</p>
           <h5 className="light_darker_text h5">{d.role}
           </h5>
@@ -37,6 +37,7 @@ class About extends Component{
         </div>
       )
     })
+
     return(
       <div className='about'>
         <h4 className="h1 mild_blue_text text-center p-4 font-weight-bold">We Prepare People for Work & Life</h4>
