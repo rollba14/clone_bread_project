@@ -30,10 +30,13 @@ class About extends Component{
         </div>
       )
     })
-    const council_elements = this.state.advisory_council.map(a=>{
+    const council_elements = this.state.advisory_council.map(c=>{
       return (
-        <div className="council" key={a.name}>
-
+        <div className="councils col-12 col-sm-6 col-lg-3" key={c.name}>
+          <p className="light_darker_text font-weight-bold h4 mt-3">{c.name}</p>
+          <h5 className="light_darker_text h5">{c.role}
+          </h5>
+          <a className="light_darker_text" href={c.linkedin} target="_blank">{c.linkedin? "LinkedIn":""}</a>
         </div>
       )
     })
@@ -89,9 +92,17 @@ class About extends Component{
                 <div className="row mb-5">
                   {staff_elements}
                 </div>
-                <h2 className="p-5 mild_blue_text h1 font-weight-bold">The Board of Directors</h2>
-                <div className="row">
+                <h2 className="mt-5 pt-5 mild_blue_text h1 font-weight-bold">
+                  The Board of Directors
+                </h2>
+                <div className="row mb-5">
                   {directors_elements}
+                </div>
+                <h2 className="mt-5 pt-5 mild_blue_text h1 font-weight-bold">
+                  The Advisory Council
+                </h2>
+                <div className="row">
+                  {council_elements}
                 </div>
               </div>
             </div>
