@@ -234,3 +234,20 @@ a:visited, a:hover, a:active {
 .help img{
   width: 100%;
 }
+
+/* News Page */
+.news img{
+  width: 100%;
+}
+
+.border-black{
+  border-color: black !important;
+}
+
+.border-gray{
+  border-color: #9A9A9A !important;
+}
+
+.news p + div :first-child {
+  padding: 2em 0;
+}
