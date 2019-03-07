@@ -251,3 +251,9 @@ a:visited, a:hover, a:active {
 .news p + div :first-child {
   padding: 2em 0;
 }
+
+/* Application Page */
+.application p + div :first-child {
+  padding: 2.3em 0;
+  line-height: 2em;
+}
