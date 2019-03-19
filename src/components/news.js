@@ -14,7 +14,7 @@ const News = () => {
               <div className="text-muted h1 border-bottom border-gray">
                 <p>
                   Join us at Sip, Savor & Support on April 9th!
-                  <div className="py-1"></div>
+                  <br/>
                   Click
                   <a className="light_darker_text" target="_blank" href="https://www.eventbrite.com/e/youre-invited-sip-savor-support-the-bread-project-tickets-57574843908?aff=ebdssbdestsearch"> HERE </a>
                   for tickets.
