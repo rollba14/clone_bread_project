@@ -14,24 +14,26 @@
 .navbar {
   padding: 0.5em 3em;
   line-height: 5em;
-  max-height: 106px;
-  overflow: visible;
+  max-height: 107px;
   z-index: 9999;
   background-color: white;
-  border-bottom: 1px solid rgba(0,0,0,.1);;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  transition: height 0.5s ease;
+  overflow: visible;
 }
 
-.navbar .collapsing{
-  transition: height .35s linear;
+.navbar-brand {
+  font-size: inherit;
 }
 
 .navbar .show, .collapsing{
+  line-height: 1em;
   margin-top: 7px;
   padding: 2em 2em;
   background-color: white;
-  line-height: normal;
   border-top: 3px solid #0072ab;
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  transition: height .35s linear;
   z-index: 9999;
 }
 
