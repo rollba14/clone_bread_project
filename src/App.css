@@ -145,6 +145,24 @@ h3, h4, h5, h6{
   height: auto;
 }
 
+.icon{
+  width: 27px;
+  height: 100%;
+  margin: 0 .5em;
+  transition: 0.7s ease;
+}
+
+.icon:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+
+.footer{
+  background-color: #093247;
+  padding: .7em 0;
+  height: 47px;
+}
+
 /* Home.js */
 .home .jumbotron-fluid{
   height: 359px;

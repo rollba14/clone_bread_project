@@ -9,6 +9,7 @@ import Help from './components/help'
 import News from './components/news'
 import Application from './components/application'
 import Donation from './components/donation'
+import Footer from './components/footer'
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path='/clone_bread_project/application' component={Application}/>
             <Route path='/clone_bread_project/donation' component={Donation}/>
           </Switch>
+          <Footer/>
         </div>
       </BrowserRouter>
     );
