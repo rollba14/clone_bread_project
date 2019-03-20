@@ -29,10 +29,25 @@ class MyNavbar extends Component{
   }
 
   componentDidMount(){
+    this.addListenerToNavBar();
+  }
+
+  addListenerToNavBar(){
     let htmlDiv = document.getElementsByTagName('html')[0];
     let navBar = document.getElementsByClassName('navbar')[0];
     let collapseDiv = navBar.querySelector('.show, .collapse');
     document.addEventListener('scroll', (e)=>this.reduceNavBarSize(e,htmlDiv,navBar,collapseDiv), false);
+    var resizeTimer;
+    window.addEventListener('resize',()=>{
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(()=>{
+        if(window.innerWidth > 992 && this.state.isOpen) {
+          let div = (navBar.getElementsByClassName('show'))[0];
+          this.toggleNavbar();
+          div.className = "collapse navbar-collapse";
+        }
+      },250);
+    })
   }
 
   reduceNavBarSize(e,htmlDiv,navBar,collapseDiv){
@@ -57,8 +72,8 @@ class MyNavbar extends Component{
             <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
               <span className="navbar-toggler-icon"></span>
             </NavbarToggler>
-            <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto text-muted" navbar>
+            <Collapse isOpen={this.state.isOpen} expand="lg" navbar>
+                <Nav className="ml-auto text-muted" expand="lg" navbar>
                   <NavItem className="navbar-text">
                     <Link to="/clone_bread_project/home">What We Do</Link>
                   </NavItem>
