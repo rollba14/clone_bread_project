@@ -19,6 +19,7 @@ class MyNavbar extends Component{
     super(props);
     this.state = {
       isOpen: false,
+      scrolling: false,
     }
   }
 
@@ -36,30 +37,36 @@ class MyNavbar extends Component{
     let htmlDiv = document.getElementsByTagName('html')[0];
     let navBar = document.getElementsByClassName('navbar')[0];
     let collapseDiv = navBar.querySelector('.show, .collapse');
-    document.addEventListener('scroll', (e)=>this.reduceNavBarSize(e,htmlDiv,navBar,collapseDiv), false);
-    var resizeTimer;
+    let resizeNavBarTimer;
+    window.onscroll = (e)=>{
+      clearTimeout(resizeNavBarTimer);
+      resizeNavBarTimer = setTimeout(()=>{
+        this.reduceNavBarSize(e,htmlDiv,navBar,collapseDiv);
+      },150);
+    };
+    var toggleNavbarTimer;
     window.addEventListener('resize',()=>{
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(()=>{
+      clearTimeout(toggleNavbarTimer);
+      toggleNavbarTimer = setTimeout(()=>{
         if(window.innerWidth > 992 && this.state.isOpen) {
           let div = (navBar.getElementsByClassName('show'))[0];
           this.toggleNavbar();
           div.className = "collapse navbar-collapse";
         }
-      },250);
+      },100);
     })
   }
 
   reduceNavBarSize(e,htmlDiv,navBar,collapseDiv){
-    let scrolledDistance = htmlDiv.getBoundingClientRect().top;
-    if(scrolledDistance < -100) {
+    if((window.oldScrollY - window.scrollY) < 100) {
       navBar.setAttribute('style',
         'height: 60px; line-height: 3.75em; font-size: .75em; padding: .375em 2.25em;');
       collapseDiv.setAttribute('style', 'line-height: inherit; margin-top: 0px;');
-    } else if (scrolledDistance >= -50){
+    } else if ((window.oldScrollY - window.scrollY) > 100){
       navBar.setAttribute('style','height: 106px; line-height: 5em; padding: 0.5em 3em;');
       collapseDiv.setAttribute('style','line-height: 1em');
     }
+    window.oldScrollY = window.scrollY;
   }
 
   render(){

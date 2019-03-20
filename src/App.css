@@ -18,7 +18,7 @@
   z-index: 9999;
   background-color: white;
   border-bottom: 1px solid rgba(0,0,0,.1);
-  transition: height 0.5s ease;
+  transition: .7s ease;
   overflow: visible;
 }
 
@@ -33,7 +33,7 @@
   background-color: white;
   border-top: 3px solid #0072ab;
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
-  transition: height .35s linear;
+  transition: height .7s ease;
   z-index: 9999;
 }
 
