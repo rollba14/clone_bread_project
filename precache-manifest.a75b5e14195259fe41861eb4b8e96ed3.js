@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "bbc64f8fc64effca3719",
-    "url": "/clone_bread_project/static/css/main.1618f374.chunk.css"
+    "revision": "ad75f62c212df311677b",
+    "url": "/clone_bread_project/static/css/main.707b8e71.chunk.css"
   },
   {
-    "revision": "bbc64f8fc64effca3719",
-    "url": "/clone_bread_project/static/js/main.bbc64f8f.chunk.js"
+    "revision": "ad75f62c212df311677b",
+    "url": "/clone_bread_project/static/js/main.ad75f62c.chunk.js"
   },
   {
-    "revision": "ec60fd69fea80e6f618a",
-    "url": "/clone_bread_project/static/css/1.0a1abca3.chunk.css"
+    "revision": "2887af8feae3233a3949",
+    "url": "/clone_bread_project/static/css/1.33fe56a8.chunk.css"
   },
   {
-    "revision": "ec60fd69fea80e6f618a",
-    "url": "/clone_bread_project/static/js/1.ec60fd69.chunk.js"
+    "revision": "2887af8feae3233a3949",
+    "url": "/clone_bread_project/static/js/1.2887af8f.chunk.js"
   },
   {
     "revision": "66e5f7e7cc0237db8315",
@@ -26,6 +26,14 @@ self.__precacheManifest = [
   {
     "revision": "99d978ccaaec296db09285a418e25d53",
     "url": "/clone_bread_project/static/media/tbp_incubate.99d978cc.jpg"
+  },
+  {
+    "revision": "0f491fddecd700ddfb2558846ce11a06",
+    "url": "/clone_bread_project/static/media/twitter_icon_gray.0f491fdd.png"
+  },
+  {
+    "revision": "9b9cc31b3bf3c263af41b62dc64f0194",
+    "url": "/clone_bread_project/static/media/facebook_icon_gray.9b9cc31b.png"
   },
   {
     "revision": "e3dc870499601a2eb3d1b15f7ff621ce",
@@ -46,6 +54,26 @@ self.__precacheManifest = [
   {
     "revision": "6c05eec0aabe67166fc180893c9a9cf5",
     "url": "/clone_bread_project/static/media/WhoWeAre_Hero-compressor.6c05eec0.jpg"
+  },
+  {
+    "revision": "8c3a6a07709d53acaba3436a1fd82f11",
+    "url": "/clone_bread_project/static/media/facebook_icon.8c3a6a07.png"
+  },
+  {
+    "revision": "ccf6909f8a70aa2e035bec36377b66ab",
+    "url": "/clone_bread_project/static/media/google_plus_icon.ccf6909f.png"
+  },
+  {
+    "revision": "e633c2fe40181ed676ca38c3cf5d2b26",
+    "url": "/clone_bread_project/static/media/rss_icon.e633c2fe.png"
+  },
+  {
+    "revision": "fd544a3b8e4a07a4447c3664f7a07ec5",
+    "url": "/clone_bread_project/static/media/twitter_icon.fd544a3b.png"
+  },
+  {
+    "revision": "4ff164402b726b08503b54af91fb4cb4",
+    "url": "/clone_bread_project/static/media/2019-Invite-V7a-1.4ff16440.jpg"
   },
   {
     "revision": "a0dfd93a3b8c3509816f232d4cc9527f",
@@ -88,7 +116,7 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/incubates.99d978cc.jpg"
   },
   {
-    "revision": "671b520f87f24509de4b410cfb315289",
+    "revision": "d7aa1d3487f6fe64aea200e4782de574",
     "url": "/clone_bread_project/index.html"
   }
 ];
