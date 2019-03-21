@@ -157,11 +157,6 @@ h3, h4, h5, h6{
   cursor:pointer;
 }
 
-button img{
-  width:23px !important;
-  margin-right: 2px;
-}
-
 .footer{
   background-color: #093247;
   padding: .7em 0;
@@ -288,4 +283,14 @@ a:visited, a:hover, a:active {
   background-color: initial;
   color: gray;
   box-shadow: 1px 1px gray;
+}
+
+.social_media a{
+  margin-left: 5px;
+}
+
+.social_media button img{
+  width:23px !important;
+  height: 23px !important;
+  margin-right: 2px;
 }
