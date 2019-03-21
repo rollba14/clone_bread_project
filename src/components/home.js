@@ -4,6 +4,7 @@ import Bootcamp_Schedule from './bootcamp_schedule_table'
 import bakery_p1_img from '../assets/BakeryBootcamp_Body_1-compressor.jpg';
 import bakery_p2_img from '../assets/BakeryBootcamp_Body_2-compressor.jpg';
 import bakery_p3_img from '../assets/BakeryBootcamp_Body_3-compressor.jpg';
+import Social_Media_Btns from './social_media_btn.js';
 
 const Home = () => {
   return(
@@ -103,6 +104,8 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <Social_Media_Btns category={"home"}/>
 
         </div>
       </div>

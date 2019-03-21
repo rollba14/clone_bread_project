@@ -1,5 +1,6 @@
 import React from 'react'
 import Bootcamp_Schedule from './bootcamp_schedule_table'
+import Social_Media_Btns from './social_media_btn.js';
 
 const Application = () => {
   return(
@@ -45,6 +46,8 @@ const Application = () => {
               </div>
             </div>
           </div>
+
+          <Social_Media_Btns category={"apply-to-program"}/>
 
         </div>
       </div>

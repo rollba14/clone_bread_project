@@ -1,4 +1,5 @@
 import React from 'react'
+import Social_Media_Btns from './social_media_btn.js';
 
 const Help = () => {
   return(
@@ -23,6 +24,8 @@ const Help = () => {
               <div className="mild_blue_bg p-5"></div>
             </div>
           </div>
+          <Social_Media_Btns category={"how-you-can-help"}/>
+
         </div>
       </div>
     </div>
