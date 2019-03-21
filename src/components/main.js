@@ -2,6 +2,7 @@ import React from 'react'
 import { Jumbotron } from 'reactstrap';
 import social_enterprise_img  from '../assets/social_enterprise.jpg';
 import tbp_incubate_img from '../assets/tbp_incubate.jpg';
+import Social_Media_Btns from './social_media_btn.js';
 
 const Main = () => {
   return(
@@ -116,6 +117,8 @@ const Main = () => {
                 <button type="button" className="btn light-bg rounded-pill px-4 py-3 "><span className="h4 mild_blue_text font-weight-bold">DONATE</span></button>
               </div>
             </div>
+
+            <Social_Media_Btns/>
           </div>
         </div>
     </div>

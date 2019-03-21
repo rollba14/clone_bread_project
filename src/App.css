@@ -146,7 +146,7 @@ h3, h4, h5, h6{
 }
 
 .icon{
-  width: 27px;
+  width: 27px !important;
   height: 100%;
   margin: 0 .5em;
   transition: 0.7s ease;
@@ -155,6 +155,11 @@ h3, h4, h5, h6{
 .icon:hover{
   opacity: 0.7;
   cursor:pointer;
+}
+
+button img{
+  width:23px !important;
+  margin-right: 2px;
 }
 
 .footer{
@@ -276,4 +281,11 @@ a:visited, a:hover, a:active {
 .application p + div :first-child {
   padding: 2.3em 0;
   line-height: 2em;
+}
+
+/* social media btn */
+.social_media .btn:hover{
+  background-color: initial;
+  color: gray;
+  box-shadow: 1px 1px gray;
 }
