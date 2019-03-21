@@ -14,7 +14,7 @@ const Social_Media_Btns = () => {
                 <small>Twitter</small>
             </button>
           </a>
-          <a href="https://breadproject.org/home/?share=facebook&nb=1" target="_blank">
+          <a href="https://breadproject.org/?share=facebook&nb=1" target="_blank">
             <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
                 <img src={facebook_icon_gray}/>
                 <small>Facebook</small>
