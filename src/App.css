@@ -317,3 +317,7 @@ a:visited, a:hover, a:active {
   font-size: small;
   font-weight: 600;
 }
+
+.donation .campaign_title {
+  padding: 0.3em 1em 0.1em 1em;
+}
