@@ -58,11 +58,12 @@ class MyNavbar extends Component{
   }
 
   reduceNavBarSize(e,htmlDiv,navBar,collapseDiv){
-    if((window.oldScrollY - window.scrollY) < 100) {
+    let distance = htmlDiv.getBoundingClientRect().top;
+    if(distance <= -30) {
       navBar.setAttribute('style',
         'height: 60px; line-height: 3.75em; font-size: .75em; padding: .375em 2.25em;');
       collapseDiv.setAttribute('style', 'line-height: inherit; margin-top: 0px;');
-    } else if ((window.oldScrollY - window.scrollY) > 100){
+    } else if (distance > -30){
       navBar.setAttribute('style','height: 106px; line-height: 5em; padding: 0.5em 3em;');
       collapseDiv.setAttribute('style','line-height: 1em');
     }
