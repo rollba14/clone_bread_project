@@ -27,7 +27,7 @@ class About extends Component{
           </h5>
           <h5 className="light_darker_text h5">{d.title}
           </h5>
-          <a className="light_darker_text" href={d.linkedin} target="_blank">{d.linkedin? "LinkedIn":""}</a>
+          <a className="light_darker_text" href={d.linkedin} rel="noopener noreferrer" target="_blank">{d.linkedin? "LinkedIn":""}</a>
         </div>
       )
     })
@@ -37,7 +37,7 @@ class About extends Component{
           <p className="light_darker_text font-weight-bold h4 mt-3">{c.name}</p>
           <h5 className="light_darker_text h5">{c.role}
           </h5>
-          <a className="light_darker_text" href={c.linkedin} target="_blank">{c.linkedin? "LinkedIn":""}</a>
+          <a className="light_darker_text" href={c.linkedin} rel="noopener noreferrer" target="_blank">{c.linkedin? "LinkedIn":""}</a>
         </div>
       )
     })
