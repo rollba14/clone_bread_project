@@ -12,7 +12,7 @@ class Donation extends Component{
           </h1>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-6 order-sm-first">
             <div className="campaign_msg">
               <p className="d-flex justify-content-md-around wrap">
                 <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
@@ -43,9 +43,9 @@ class Donation extends Component{
             </div>
           </div>
 
-          <div className="col-6">
+          <div className="col-12 col-sm-6 order-first">
             <div className="donation_form">
-
+              donation form
             </div>
           </div>
 
