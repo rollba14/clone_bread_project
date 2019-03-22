@@ -2,7 +2,7 @@ import React from 'react'
 import { Jumbotron } from 'reactstrap';
 import social_enterprise_img  from '../assets/social_enterprise.jpg';
 import tbp_incubate_img from '../assets/tbp_incubate.jpg';
-import Social_Media_Btns from './social_media_btn.js';
+import SocialMediaBtns from './social_media_btn.js';
 
 const Main = () => {
   return(
@@ -118,7 +118,7 @@ const Main = () => {
               </div>
             </div>
 
-            <Social_Media_Btns/>
+            <SocialMediaBtns/>
           </div>
         </div>
     </div>

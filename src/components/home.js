@@ -1,10 +1,10 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
-import Bootcamp_Schedule from './bootcamp_schedule_table'
+import BootcampSchedule from './bootcamp_schedule_table'
 import bakery_p1_img from '../assets/BakeryBootcamp_Body_1-compressor.jpg';
 import bakery_p2_img from '../assets/BakeryBootcamp_Body_2-compressor.jpg';
 import bakery_p3_img from '../assets/BakeryBootcamp_Body_3-compressor.jpg';
-import Social_Media_Btns from './social_media_btn.js';
+import SocialMediaBtns from './social_media_btn.js';
 
 const Home = () => {
   return(
@@ -99,13 +99,13 @@ const Home = () => {
                   <a href="#" className="mild_blue_text">See Eligibility Information</a>
                 </div>
                 <div className="col-lg-8 col-12 mx-auto">
-                  <Bootcamp_Schedule/>
+                  <BootcampSchedule/>
                 </div>
               </div>
             </div>
           </div>
 
-          <Social_Media_Btns category={"home"}/>
+          <SocialMediaBtns category={"home"}/>
 
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Staff from './staff'
 import about_banner_img from '../assets/WhoWeAre_Hero-compressor.jpg';
 import Infographic_compressor from "../assets/Infographic-compressor.jpg"
-import Social_Media_Btns from './social_media_btn.js';
+import SocialMediaBtns from './social_media_btn.js';
 
 class About extends Component{
   constructor(props){
@@ -108,7 +108,7 @@ class About extends Component{
               </div>
             </div>
 
-            <Social_Media_Btns category={"about-us"}/>
+            <SocialMediaBtns category={"about-us"}/>
 
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bootcamp_Schedule = () => {
+const BootcampSchedule = () => {
   return(
     <div className="bootcamp_schedule light_blue_bg">
       <div className="mx-auto px-1 py-5">
@@ -104,4 +104,4 @@ const Bootcamp_Schedule = () => {
   )
 }
 
-export default Bootcamp_Schedule;
+export default BootcampSchedule;

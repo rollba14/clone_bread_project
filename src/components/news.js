@@ -1,5 +1,5 @@
 import React from 'react'
-import Social_Media_Btns from './social_media_btn.js';
+import SocialMediaBtns from './social_media_btn.js';
 
 const News = () => {
   return(
@@ -32,7 +32,7 @@ const News = () => {
             </div>
           </div>
 
-          <Social_Media_Btns category={"news-events"}/>
+          <SocialMediaBtns category={"news-events"}/>
 
         </div>
       </div>

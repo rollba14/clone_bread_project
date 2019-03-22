@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import twitter_icon_gray from '../assets/twitter_icon_gray.png';
 import facebook_icon_gray from '../assets/facebook_icon_gray.png';
 
-class Social_Media_Btns extends Component{
+class SocialMediaBtns extends Component{
   render(){
     let category = this.props.category;
     let twitterLink,fbLink;
@@ -38,4 +38,4 @@ class Social_Media_Btns extends Component{
   }
 }
 
-export default Social_Media_Btns;
+export default SocialMediaBtns;
