@@ -9,10 +9,10 @@ const Footer = () => {
     <div className='footer row'>
       {/*<div className="d-flex flex-row-reverse mx-5">*/}
       <div className="col-md-10 px-5 px-md-4 mx-auto d-flex align-items-center justify-content-end">
-        <img src={facebook_icon} className="icon"/>
-        <img src={twitter_icon} className="icon"/>
-        <img src={google_plus_icon} className="icon"/>
-        <img src={rss_icon} className="icon"/>
+        <img src={facebook_icon} className="icon" alt="facebook icon"/>
+        <img src={twitter_icon} className="icon" alt="twitter icon"/>
+        <img src={google_plus_icon} className="icon" alt="google plus icon"/>
+        <img src={rss_icon} className="icon" alt="rss icon"/>
       </div>
     </div>
   )
