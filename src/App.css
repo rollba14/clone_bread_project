@@ -296,8 +296,24 @@ a:visited, a:hover, a:active {
 }
 
 /* donation page */
+.donation {
+  min-height: calc(100vh - 170px);
+}
+
 .donation button img{
   width:23px !important;
   height: 23px !important;
   margin-right: 2px;
+}
+
+.donation .campaign_msg {
+  padding: 1em 2em;
+  box-shadow: 0 3px 20px 5px rgba(196,196,196,0.45);
+  border-radius: 2px;
+}
+
+.donation .campaign_msg p{
+  color: gray;
+  font-size: small;
+  font-weight: 600;
 }
