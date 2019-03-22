@@ -17,7 +17,7 @@ const News = () => {
                   Join us at Sip, Savor & Support on April 9th!
                   <br/>
                   Click
-                  <a className="light_darker_text" target="_blank" href="https://www.eventbrite.com/e/youre-invited-sip-savor-support-the-bread-project-tickets-57574843908?aff=ebdssbdestsearch"> HERE </a>
+                  <a className="light_darker_text" target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/youre-invited-sip-savor-support-the-bread-project-tickets-57574843908?aff=ebdssbdestsearch"> HERE </a>
                   for tickets.
                 </p>
               </div>
@@ -26,7 +26,7 @@ const News = () => {
               <br/>
               <small className="text-muted font-weight-bold">
                 Click
-                <a className="light_darker_text" target="_blank" href="https://www.eventbrite.com/e/youre-invited-sip-savor-support-the-bread-project-tickets-57574843908?aff=ebdssbdestsearch"> HERE </a>
+                <a className="light_darker_text" target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/youre-invited-sip-savor-support-the-bread-project-tickets-57574843908?aff=ebdssbdestsearch"> HERE </a>
                 TO SIGN UP FOR THE EVENT!
               </small>
             </div>

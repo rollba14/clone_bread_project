@@ -19,13 +19,13 @@ class Social_Media_Btns extends Component{
         <div className="row">
           <div className="col-md-10 px-5 px-md-4 mx-auto text-left">
             <span className="light_darker_text font-weight-bold text-left"><small>Share this:</small></span>
-            <a href={twitterLink} target="_blank">
+            <a href={twitterLink} target="_blank" rel="noopener noreferrer">
               <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
                   <img src={twitter_icon_gray}/>
                   <small>Twitter</small>
               </button>
             </a>
-            <a href={fbLink} target="_blank">
+            <a href={fbLink} target="_blank" rel="noopener noreferrer">
               <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
                   <img src={facebook_icon_gray}/>
                   <small>Facebook</small>
