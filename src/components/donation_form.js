@@ -26,7 +26,7 @@ class DonationForm extends Component{
         <form action="#" method="post" onSubmit={this.onSubmit}>
           <div className="h5">Choose amount</div>
           <div className="donation_form_body">
-            <div className="suggested_amount_boxes row no-gutters">
+            <div className="suggested_amount_boxes row">
               {suggested_amount_divs}
             </div>
             <input type="submit" value="Donate"/>
