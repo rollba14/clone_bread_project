@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import twitter_icon_gray from '../assets/twitter_icon_gray.png';
 import facebook_icon_gray from '../assets/facebook_icon_gray.png';
+import DonationForm from './donation_form';
 
 class Donation extends Component{
   render(){
@@ -44,9 +45,7 @@ class Donation extends Component{
           </div>
 
           <div className="col-12 col-sm-6 order-first">
-            <div className="donation_form">
-              donation form
-            </div>
+            <DonationForm/>
           </div>
 
         </div>

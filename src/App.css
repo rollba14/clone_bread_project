@@ -321,3 +321,21 @@ a:visited, a:hover, a:active {
 .donation .campaign_title {
   padding: 0.3em 1em 0.1em 1em;
 }
+
+.donation input[type="radio"]{
+  opacity: 0;
+}
+
+.donation input[type="radio"] + label{
+  border: 1px solid gray;
+  margin: 2px 2px 2px -14px;
+}
+
+.donation input[type="radio"] + label:hover{
+  cursor: pointer;
+}
+
+.donation input[type="radio"]:checked + label{
+  color: teal;
+  border: 2px solid #41A2D8;
+}
