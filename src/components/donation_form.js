@@ -12,7 +12,7 @@ class DonationForm extends Component{
     const suggested_amount = [10,25,50,100,250,500];
     const suggested_amount_divs = suggested_amount.map((amount,i)=>{
       return(
-        <div className="box_input" key={`${amount}-${i}`}>
+        <div className="box_input col-4" key={`${amount}-${i}`}>
           <input type="radio" id={`suggested_amount_${i}`} name="donation_suggested_amount" value={amount}/>
           <label htmlFor={`suggested_amount_${i}`}>
             $ {amount}
@@ -24,11 +24,13 @@ class DonationForm extends Component{
     return(
       <div className="donation_form box_shadow_bg">
         <form action="#" method="post" onSubmit={this.onSubmit}>
-            <div className="h5">Choose amount</div>
-            <div className="suggested_amount_boxes">
+          <div className="h5">Choose amount</div>
+          <div className="donation_form_body">
+            <div className="suggested_amount_boxes row no-gutters">
               {suggested_amount_divs}
             </div>
-          <input type="submit"/>
+            <input type="submit"/>
+          </div>
         </form>
       </div>
     )

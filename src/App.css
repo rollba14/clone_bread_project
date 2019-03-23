@@ -327,12 +327,14 @@ a:visited, a:hover, a:active {
 
 .donation_form {
   text-align: center;
+  border-radius: 4px;
 }
 
 .donation_form form > div{
   padding: 0.5em 1em;
   color: white;
   background-color: #41A2D8;
+  border-radius: 4px 4px 0 0;
 }
 
 .donation_form form > div ~ div{
@@ -348,6 +350,12 @@ a:visited, a:hover, a:active {
 .donation_form input[type="radio"] + label{
   border: 1px solid gray;
   margin: 2px 2px 2px -14px;
+  padding: 1em;
+  width: 5em;
+  height: 3.5em;
+  vertical-align: middle;
+  font-size: 1.2em;
+  border-radius: 4px;
 }
 
 .donation_form input[type="radio"] + label:hover{
@@ -355,6 +363,10 @@ a:visited, a:hover, a:active {
 }
 
 .donation_form input[type="radio"]:checked + label{
-  color: teal;
+  color: #41A2D8;
   border: 2px solid #41A2D8;
+}
+
+.donation_form .donation_form_body {
+  padding: 1.5em 2.5em 1em 2.5em;
 }
