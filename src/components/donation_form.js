@@ -22,7 +22,7 @@ class DonationForm extends Component{
     })
 
     return(
-      <div className="donation_form box_shadow_bg">
+      <div className="donation_form box_shadow_bg col col-lg-10 mx-auto">
         <form action="#" method="post" onSubmit={this.onSubmit}>
           <div className="h5">Choose amount</div>
           <div className="donation_form_body">
