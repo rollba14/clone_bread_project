@@ -22,8 +22,9 @@ class DonationForm extends Component{
     })
 
     return(
-      <div className="donation_form">
+      <div className="donation_form box_shadow_bg">
         <form action="#" method="post" onSubmit={this.onSubmit}>
+            <div className="h5">Choose amount</div>
             <div className="suggested_amount_boxes">
               {suggested_amount_divs}
             </div>

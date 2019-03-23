@@ -14,7 +14,7 @@ class Donation extends Component{
         </div>
         <div className="row">
           <div className="col-12 col-sm-6 order-sm-first">
-            <div className="campaign_msg">
+            <div className="campaign_msg box_shadow_bg">
               <p className="d-flex justify-content-md-around wrap">
                 <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
                   <button type="button" className="py-0 btn btn-sm btn-outline-secondary">

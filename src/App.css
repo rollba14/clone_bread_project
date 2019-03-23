@@ -296,6 +296,11 @@ a:visited, a:hover, a:active {
 }
 
 /* donation page */
+.box_shadow_bg{
+  box-shadow: 0 3px 20px 5px rgba(196,196,196,0.45);
+  border-radius: 2px;
+}
+
 .donation {
   min-height: calc(100vh - 170px);
 }
@@ -308,8 +313,6 @@ a:visited, a:hover, a:active {
 
 .donation .campaign_msg {
   padding: 1em 2em;
-  box-shadow: 0 3px 20px 5px rgba(196,196,196,0.45);
-  border-radius: 2px;
 }
 
 .donation .campaign_msg p{
@@ -322,20 +325,24 @@ a:visited, a:hover, a:active {
   padding: 0.3em 1em 0.1em 1em;
 }
 
-.donation input[type="radio"]{
+.donation_form {
+  text-align: center;
+}
+
+.donation_form input[type="radio"]{
   opacity: 0;
 }
 
-.donation input[type="radio"] + label{
+.donation_form input[type="radio"] + label{
   border: 1px solid gray;
   margin: 2px 2px 2px -14px;
 }
 
-.donation input[type="radio"] + label:hover{
+.donation_form input[type="radio"] + label:hover{
   cursor: pointer;
 }
 
-.donation input[type="radio"]:checked + label{
+.donation_form input[type="radio"]:checked + label{
   color: teal;
   border: 2px solid #41A2D8;
 }
