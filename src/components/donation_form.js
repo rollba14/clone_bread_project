@@ -1,11 +1,23 @@
 import React, {Component} from 'react'
 
 class DonationForm extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      commentChecked: false,
+    }
+  }
 
-  onSubmit(e){
+  onSubmit=(e)=>{
     e.preventDefault();
     let donationAmount = e.target["donation_suggested_amount"].value;
     console.log(donationAmount);
+  }
+
+  onChangeCommentBox =(e)=>{
+    this.setState({
+      commentChecked: !this.state.commentChecked,
+    })
   }
 
   render(){
@@ -34,8 +46,10 @@ class DonationForm extends Component{
               <input type="text" id="custom_amount"/>
             </div>
             <div className="comment text-left">
-              <input type="checkbox" id="comment_checkbox"/>
+              <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
               <label htmlFor="comment_checkbox">Write us a comment</label>
+              <p> a</p>
+              <textarea className={this.state.commentChecked ? '' : 'hidden'} > some text</textarea>
             </div>
             <input type="submit" className="btn" value="Donate"/>
           </div>

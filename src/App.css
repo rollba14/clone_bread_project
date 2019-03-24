@@ -451,6 +451,10 @@ a:visited, a:hover, a:active {
   margin-bottom: 0;
 }
 
+.hidden{
+  display: none;
+}
+
 @media only screen and (max-width: 500px) {
   .donation_form .box_input{
     padding: 0;
