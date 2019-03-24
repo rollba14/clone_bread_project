@@ -49,8 +49,8 @@ class DonationForm extends Component{
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
               <label htmlFor="comment_checkbox">Write us a comment</label>
             </div>
-            <div>
-              <textarea className={this.state.commentChecked ? '' : 'hidden'}></textarea>
+            <div className="comment">
+              <textarea className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
             </div>
             <input type="submit" className="btn" value="Donate"/>
           </div>

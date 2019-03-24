@@ -451,6 +451,24 @@ a:visited, a:hover, a:active {
   margin-bottom: 0;
 }
 
+.donation_form .comment{
+  margin-bottom: 1.5em;
+}
+
+.donation_form .comment textarea{
+  width: 100%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  min-height: 80px;
+}
+
+.donation_form .comment textarea:focus{
+  outline: none;
+  border-bottom: 2px solid #41A2D8;
+}
+
 .hidden{
   display: none;
 }
