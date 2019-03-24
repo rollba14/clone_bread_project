@@ -414,12 +414,12 @@ a:visited, a:hover, a:active {
   font-weight: bold;
 }
 
-.donation_form .comment {
+.donation_form .comment_checkbox {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
-.donation_form .comment input[type="checkbox"] {
+.donation_form .comment_checkbox input[type="checkbox"] {
   width: 1.5em;
   height: 1.5em;
   appearance: none;
@@ -430,7 +430,7 @@ a:visited, a:hover, a:active {
   text-align: left;
 }
 
-.donation_form .comment input[type="checkbox"]:checked:after{
+.donation_form .comment_checkbox input[type="checkbox"]:checked:after{
   content: '\2713';
   font-size: 1.5em;
   position: absolute;
@@ -447,7 +447,7 @@ a:visited, a:hover, a:active {
   border: none;
 }
 
-.donation_form .comment label{
+.donation_form .comment_checkbox label{
   margin-bottom: 0;
 }
 
