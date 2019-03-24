@@ -33,6 +33,10 @@ class DonationForm extends Component{
               <label htmlFor="custom_amount">$</label>
               <input type="text" id="custom_amount"/>
             </div>
+            <div className="comment text-left">
+              <input type="checkbox" id="comment_checkbox"/>
+              <label htmlFor="comment_checkbox">Write us a comment</label>
+            </div>
             <input type="submit" className="btn" value="Donate"/>
           </div>
         </form>

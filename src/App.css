@@ -378,6 +378,10 @@ a:visited, a:hover, a:active {
   margin-bottom: 1em;
 }
 
+.donation_form input:focus{
+  outline: none;
+}
+
 .donation_form input[type="submit"] {
   width: 100%;
   padding: .7em .5em;
@@ -408,6 +412,43 @@ a:visited, a:hover, a:active {
   padding: 10px 30px;
   color: #41A2D8;
   font-weight: bold;
+}
+
+.donation_form .comment {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.donation_form .comment input[type="checkbox"] {
+  width: 1.5em;
+  height: 1.5em;
+  appearance: none;
+  border: 1px solid gray;
+  position: relative;
+  margin-right: 1em;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.donation_form .comment input[type="checkbox"]:checked:after{
+  content: '\2713';
+  font-size: 1.5em;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: -1px;
+  left: -1px;
+  color: white;
+  background: #41A2D8;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.donation_form .comment label{
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 500px) {
