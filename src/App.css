@@ -391,15 +391,14 @@ a:visited, a:hover, a:active {
 .donation_form .custom_amount_box{
   position: relative;
   height: 70px;
-  line-height: 70px;
   width: 100%;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
 }
 
 .donation_form .custom_amount_box label[for="custom_amount"]{
   position: absolute;
-  line-height: inherit;
-  height: inherit;
   left: 15px;
 }
 
