@@ -388,6 +388,29 @@ a:visited, a:hover, a:active {
   border-radius: 4px;
 }
 
+.donation_form .custom_amount_box{
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.donation_form .custom_amount_box label[for="custom_amount"]{
+  position: absolute;
+  line-height: inherit;
+  height: inherit;
+  left: 15px;
+}
+
+.donation_form .custom_amount_box input[type="text"]{
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px;
+  color: #41A2D8;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 500px) {
   .donation_form .box_input{
     padding: 0;

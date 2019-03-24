@@ -29,7 +29,11 @@ class DonationForm extends Component{
             <div className="suggested_amount_boxes row">
               {suggested_amount_divs}
             </div>
-            <input type="submit" value="Donate"/>
+            <div className="custom_amount_box">
+              <label htmlFor="custom_amount">$</label>
+              <input type="text" id="custom_amount"/>
+            </div>
+            <input type="submit" className="btn" value="Donate"/>
           </div>
         </form>
       </div>
