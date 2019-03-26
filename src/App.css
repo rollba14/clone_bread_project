@@ -349,7 +349,7 @@ a:visited, a:hover, a:active {
   opacity: 0;
 }
 
-.donation_form input[type="radio"] + label{
+.donation_form .suggested_amount_boxes input[type="radio"] + label{
   border: 1px solid gray;
   margin-left: -14px;
   padding: 1em 0;
@@ -365,7 +365,7 @@ a:visited, a:hover, a:active {
   cursor: pointer;
 }
 
-.donation_form input[type="radio"]:checked + label{
+.donation_form .suggested_amount_boxes input[type="radio"]:checked + label{
   color: #41A2D8;
   border: 2px solid #41A2D8;
 }
