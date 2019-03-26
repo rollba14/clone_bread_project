@@ -22,10 +22,14 @@ class DonationForm extends Component{
     })
   }
 
-  clearSuggestedAmount=(e)=>{
-    let inputs = this.suggestedBox.getElementsByTagName('input');
-    for(let input of inputs){
-      input["checked"] = false;
+  clearOtherInputBox=(e)=>{
+    if(e.target.tagName === 'LABEL'){
+      this.customAmountBox.value='';
+    }else{
+      let inputs = this.suggestedBox.getElementsByTagName('input');
+      for(let input of inputs){
+        input["checked"] = false;
+      }
     }
   }
 
@@ -35,7 +39,7 @@ class DonationForm extends Component{
       return(
         <div className="box_input col-4" key={`${amount}-${i}`}>
           <input type="radio" id={`suggested_amount_${i}`} name="donation_suggested_amount" value={amount}/>
-          <label htmlFor={`suggested_amount_${i}`}>
+          <label htmlFor={`suggested_amount_${i}`} onClick={this.clearOtherInputBox}>
             $ {amount}
           </label>
         </div>
@@ -52,7 +56,7 @@ class DonationForm extends Component{
             </div>
             <div className="custom_amount_box">
               <label htmlFor="custom_amount">$</label>
-              <input type="numeric" onFocus={this.clearSuggestedAmount} id="custom_amount"/>
+              <input ref={(input)=>{this.customAmountBox = input}} type="numeric" onFocus={this.clearOtherInputBox} id="custom_amount"/>
             </div>
             <div className="comment_checkbox text-left">
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
