@@ -33,6 +33,11 @@ class DonationForm extends Component{
     }
   }
 
+  adjustInputHeight=(e)=>{
+    let input = e.target;
+    input.style.height = input.scrollHeight + 'px';
+  }
+
   render(){
     const suggested_amount = [10,25,50,100,250,500];
     const suggested_amount_divs = suggested_amount.map((amount,i)=>{
@@ -63,7 +68,7 @@ class DonationForm extends Component{
               <label htmlFor="comment_checkbox">Write us a comment</label>
             </div>
             <div className="comment">
-              <textarea ref={(input)=>{this.commentInput = input}} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
+              <textarea ref={(input)=>{this.commentInput = input}} onChange={this.adjustInputHeight} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
             </div>
             <div className="donation_type_box">
               <input type="radio" id='one_time_donation' defaultChecked name="donation_type" value="one_time"/>
