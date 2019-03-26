@@ -469,6 +469,18 @@ a:visited, a:hover, a:active {
   border-bottom: 2px solid #41A2D8;
 }
 
+.donation_form .donation_type_box input[type="radio"] + label{
+  border: 2px solid #41A2D8;
+  color: #41A2D8;
+}
+
+.donation_form .donation_type_box input[type="radio"]:checked + label{
+  background-color: #41A2D8;
+  color: white;
+}
+
+.donation_form .donation_type_box input[type="radio"]
+
 .hidden{
   display: none;
 }

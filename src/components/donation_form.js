@@ -55,7 +55,7 @@ class DonationForm extends Component{
               <textarea ref={(input)=>{this.commentInput = input}} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
             </div>
             <div className="donation_type_box">
-              <input type="radio" id='one_time_donation' name="donation_type" value="one_time"/>
+              <input type="radio" id='one_time_donation' defaultChecked name="donation_type" value="one_time"/>
               <label htmlFor='one_time_donation'>One-time</label>
               <input type="radio" id='monthly_donation' name="donation_type" value="monthly_donation"/>
               <label htmlFor='monthly_donation'>Monthly</label>
