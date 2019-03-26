@@ -10,8 +10,15 @@ class DonationForm extends Component{
 
   onSubmit=(e)=>{
     e.preventDefault();
-    let donationAmount = e.target["donation_suggested_amount"].value;
-    console.log(donationAmount);
+    let form = e.target;
+    this.sanitizeInput(form);
+  }
+
+  sanitizeInput(form){
+    let suggestedAmount = form["donation_suggested_amount"].value;
+    let custom_amount = form["donation_custom_amount"].value;
+    let comment = form["donation_comment"].value;
+    console.log(suggestedAmount, custom_amount,comment);
   }
 
   onChangeCommentBox =(e)=>{
@@ -60,15 +67,15 @@ class DonationForm extends Component{
               {suggested_amount_divs}
             </div>
             <div className="custom_amount_box">
-              <label htmlFor="custom_amount">$</label>
-              <input ref={(input)=>{this.customAmountBox = input}} type="numeric" onFocus={this.clearOtherInputBox} id="custom_amount"/>
+              <label htmlFor="donation_custom_amount">$</label>
+              <input ref={(input)=>{this.customAmountBox = input}} type="numeric" onFocus={this.clearOtherInputBox} id="donation_custom_amount"/>
             </div>
             <div className="comment_checkbox text-left">
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
               <label htmlFor="comment_checkbox">Write us a comment</label>
             </div>
             <div className="comment">
-              <textarea ref={(input)=>{this.commentInput = input}} onChange={this.adjustInputHeight} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
+              <textarea name="donation_comment" ref={(input)=>{this.commentInput = input}} onChange={this.adjustInputHeight} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
             </div>
             <div className="donation_type_box">
               <input type="radio" id='one_time_donation' defaultChecked name="donation_type" value="one_time"/>
