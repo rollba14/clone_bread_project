@@ -17,6 +17,8 @@ class DonationForm extends Component{
   onChangeCommentBox =(e)=>{
     this.setState({
       commentChecked: !this.state.commentChecked,
+    },()=>{
+      if(this.state.commentChecked) this.commentInput.focus();
     })
   }
 
@@ -50,7 +52,7 @@ class DonationForm extends Component{
               <label htmlFor="comment_checkbox">Write us a comment</label>
             </div>
             <div className="comment">
-              <textarea className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
+              <textarea ref={(input)=>{this.commentInput = input}} className={this.state.commentChecked ? '' : 'hidden'} placeholder="Your comment"></textarea>
             </div>
             <input type="submit" className="btn" value="Donate"/>
           </div>
