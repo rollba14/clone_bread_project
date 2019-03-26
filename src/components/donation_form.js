@@ -22,6 +22,13 @@ class DonationForm extends Component{
     })
   }
 
+  clearSuggestedAmount=(e)=>{
+    let inputs = this.suggestedBox.getElementsByTagName('input');
+    for(let input of inputs){
+      input["checked"] = false;
+    }
+  }
+
   render(){
     const suggested_amount = [10,25,50,100,250,500];
     const suggested_amount_divs = suggested_amount.map((amount,i)=>{
@@ -40,12 +47,12 @@ class DonationForm extends Component{
         <form action="#" method="post" onSubmit={this.onSubmit}>
           <div className="h5">Choose amount</div>
           <div className="donation_form_body">
-            <div className="suggested_amount_boxes row">
+            <div ref={(div)=>{this.suggestedBox = div}} className="suggested_amount_boxes row">
               {suggested_amount_divs}
             </div>
             <div className="custom_amount_box">
               <label htmlFor="custom_amount">$</label>
-              <input type="text" id="custom_amount"/>
+              <input type="numeric" onFocus={this.clearSuggestedAmount} id="custom_amount"/>
             </div>
             <div className="comment_checkbox text-left">
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
