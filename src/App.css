@@ -469,9 +469,22 @@ a:visited, a:hover, a:active {
   border-bottom: 2px solid #41A2D8;
 }
 
+.donation_form .donation_type_box input[type="radio"] {
+  position: absolute;
+}
+
 .donation_form .donation_type_box input[type="radio"] + label{
-  border: 2px solid #41A2D8;
+  border: 1px solid #41A2D8;
   color: #41A2D8;
+  padding: .5em;
+  width: auto;
+  height: auto;
+  border-radius: 3px 0px 0px 3px;
+  margin-bottom: 2em;
+}
+
+.donation_form .donation_type_box input[type="radio"] + label:last-child{
+  border-radius: 0px 3px 3px 0px;
 }
 
 .donation_form .donation_type_box input[type="radio"]:checked + label{
