@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import DOMPurify from 'dompurify';
 
 class DonationForm extends Component{
   constructor(props){
@@ -15,10 +16,10 @@ class DonationForm extends Component{
   }
 
   sanitizeInput(form){
-    let suggestedAmount = form["donation_suggested_amount"].value;
-    let custom_amount = form["donation_custom_amount"].value;
-    let comment = form["donation_comment"].value;
-    console.log(suggestedAmount, custom_amount,comment);
+    form.suggestedAmount = DOMPurify.sanitize(form["donation_suggested_amount"].value);
+    form.customAmount = DOMPurify.sanitize(form["donation_custom_amount"].value);
+    form.comment = DOMPurify.sanitize(form["donation_comment"].value);
+    form.donationType = DOMPurify.sanitize(form["donation_type"].value);
   }
 
   onChangeCommentBox =(e)=>{
