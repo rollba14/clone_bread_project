@@ -27,7 +27,7 @@ class DonationForm extends Component{
   verifyInput(donateAmt){
     let error = "";
     let donateParts = donateAmt.split('.');
-    donateAmt = donateAmt.replace(/,/g, "");
+    donateParts[0] = donateParts[0].replace(/,/g, "");
     if(!donateAmt){
       error = "Donation amount cannot be empty.";
     }
@@ -40,7 +40,7 @@ class DonationForm extends Component{
       }
     }
 
-    if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
+    if(/^(\d*\.?\d{1,2})$/.test(donateParts.join('.'))) {
       //valid input format
       const donationAmount = donateParts[1] ? this.formatNum(donateParts[0]) + '.' + donateParts[1] : this.formatNum(donateParts[0]);
       const comment = this.form.comment ? `\n\nHeres the comment you wrote:\n${this.form.comment}` : "";
@@ -50,7 +50,7 @@ class DonationForm extends Component{
     else if(!error){
       error = "Please input amount in the correct format.";
     }
-    
+
     if(error) {
       this.setState({
         inputError : true,
