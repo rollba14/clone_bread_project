@@ -16,10 +16,10 @@ class DonationForm extends Component{
   }
 
   sanitizeInput(form){
-    form.suggestedAmount = DOMPurify.sanitize(form["donation_suggested_amount"].value);
-    form.customAmount = DOMPurify.sanitize(form["donation_custom_amount"].value);
-    form.comment = DOMPurify.sanitize(form["donation_comment"].value);
-    form.donationType = DOMPurify.sanitize(form["donation_type"].value);
+    form.suggestedAmount = (DOMPurify.sanitize(form["donation_suggested_amount"].value) + "").trim();
+    form.customAmount = (DOMPurify.sanitize(form["donation_custom_amount"].value) + "").trim();
+    form.comment = (DOMPurify.sanitize(form["donation_comment"].value) + "").trim();
+    form.donationType = (DOMPurify.sanitize(form["donation_type"].value) + "").trim();
   }
 
   onChangeCommentBox =(e)=>{
