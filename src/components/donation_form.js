@@ -40,6 +40,10 @@ class DonationForm extends Component{
     }
     if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
       //valid input format
+      const donationAmount = donateParts[1] ? this.formatNum(donateParts[0]) + '.' + donateParts[1] : this.formatNum(donateParts[0]);
+      const comment = form.comment ? `\n Heres the comment you wrote:\n ${form.comment}` : "";
+      const thankYouMsg = `Thank you for donating $${donationAmount}. This is just a demo. Please consider donating at The Bread Project's original site. ${comment}`;
+      alert(thankYouMsg);
     }
     else if(!error){
       error = "Please input amount in the correct format.";
