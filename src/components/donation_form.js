@@ -40,12 +40,23 @@ class DonationForm extends Component{
     }
     if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
       //valid input format
-      console.log(parseFloat(donateAmt));
     }
     else if(!error){
       error = "Please input amount in the correct format.";
     }
     if(error) alert(error);
+  }
+
+  // format donation amount to have a comma every 4th digit
+  formatNum(str){
+    let formatedNum = "";
+    for(let count = 0; count < str.length; count++){
+      if(count%3 === 0 && count !== 0){
+        formatedNum = ',' + formatedNum;
+      }
+      formatedNum = str[str.length-1-count] + formatedNum;
+    }
+    return formatedNum;
   }
 
   onChangeCommentBox =(e)=>{
