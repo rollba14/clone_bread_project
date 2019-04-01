@@ -11,9 +11,8 @@ class DonationForm extends Component{
 
   onSubmit=(e)=>{
     e.preventDefault();
-    let form = e.target;
-    this.sanitizeInput(form);
-    this.verifyInput(form.suggestedAmount || form.customAmount);
+    this.sanitizeInput(this.form);
+    this.verifyInput(this.form.suggestedAmount || this.form.customAmount);
   }
 
   sanitizeInput(form){
@@ -41,8 +40,8 @@ class DonationForm extends Component{
     if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
       //valid input format
       const donationAmount = donateParts[1] ? this.formatNum(donateParts[0]) + '.' + donateParts[1] : this.formatNum(donateParts[0]);
-      const comment = form.comment ? `\n Heres the comment you wrote:\n ${form.comment}` : "";
-      const thankYouMsg = `Thank you for donating $${donationAmount}. This is just a demo. Please consider donating at The Bread Project's original site. ${comment}`;
+      const comment = this.form.comment ? `\n\nHeres the comment you wrote:\n${this.form.comment}` : "";
+      const thankYouMsg = `Thank you for donating $${donationAmount}. This is just a demo. Please consider donating at The Bread Project's original site.${comment}`;
       alert(thankYouMsg);
     }
     else if(!error){
@@ -102,7 +101,7 @@ class DonationForm extends Component{
 
     return(
       <div className="donation_form box_shadow_bg col col-lg-10 mx-auto">
-        <form action="#" method="post" onSubmit={this.onSubmit}>
+        <form ref={form=>{this.form = form}} action="#" method="post" onSubmit={this.onSubmit}>
           <div className="h5">Choose amount</div>
           <div className="donation_form_body">
             <div ref={(div)=>{this.suggestedBox = div}} className="suggested_amount_boxes row">
