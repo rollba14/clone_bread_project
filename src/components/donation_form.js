@@ -39,6 +39,7 @@ class DonationForm extends Component{
         error = "Comma(s) can only be used before the decimal.";
       }
     }
+
     if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
       //valid input format
       const donationAmount = donateParts[1] ? this.formatNum(donateParts[0]) + '.' + donateParts[1] : this.formatNum(donateParts[0]);
@@ -49,6 +50,7 @@ class DonationForm extends Component{
     else if(!error){
       error = "Please input amount in the correct format.";
     }
+    
     if(error) {
       this.setState({
         inputError : true,
