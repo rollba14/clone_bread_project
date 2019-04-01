@@ -495,6 +495,12 @@ a:visited, a:hover, a:active {
   color: white;
 }
 
+.donation_form .inputErrorBox {
+  margin-bottom: 1em;
+  color: red;
+  font-weight: bold;
+}
+
 .hidden{
   display: none;
 }

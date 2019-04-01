@@ -54,6 +54,11 @@ class DonationForm extends Component{
         inputError : true,
         inputErrorMsg : error,
       })
+    } else {
+      this.setState({
+        inputError : false,
+        inputErrorMsg : null,
+      })
     }
   }
 
