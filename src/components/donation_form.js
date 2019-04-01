@@ -24,10 +24,28 @@ class DonationForm extends Component{
   }
 
   verifyInput(donateAmt){
+    let error = "";
+    let donateParts = donateAmt.split('.');
+    donateAmt = donateAmt.replace(/,/g, "");
     if(!donateAmt){
-      alert('Donation amount cannot be empty');
-      return;
+      error = "Donation amount cannot be empty.";
     }
+    else if(donateParts.length > 2) {
+      error = "Only one decimal is allowed.";
+    }
+    else if(donateParts.length === 2){
+      if(donateParts[1].indexOf(',') !== -1){
+        error = "Comma(s) can only be used before the decimal.";
+      }
+    }
+    if(/^(\d*\.?\d{1,2})$/.test(donateAmt)) {
+      //valid input format
+      console.log(parseFloat(donateAmt));
+    }
+    else if(!error){
+      error = "Please input amount in the correct format.";
+    }
+    if(error) alert(error);
   }
 
   onChangeCommentBox =(e)=>{
