@@ -6,6 +6,8 @@ class DonationForm extends Component{
     super(props);
     this.state = {
       commentChecked: false,
+      inputError: false,
+      inputErrorMsg: null,
     }
   }
 
@@ -47,7 +49,12 @@ class DonationForm extends Component{
     else if(!error){
       error = "Please input amount in the correct format.";
     }
-    if(error) alert(error);
+    if(error) {
+      this.setState({
+        inputError : true,
+        inputErrorMsg : error,
+      })
+    }
   }
 
   // format donation amount to have a comma every 4th digit
@@ -110,6 +117,9 @@ class DonationForm extends Component{
             <div className="custom_amount_box">
               <label htmlFor="donation_custom_amount">$</label>
               <input ref={(input)=>{this.customAmountBox = input}} type="numeric" onFocus={this.clearOtherInputBox} id="donation_custom_amount"/>
+            </div>
+            <div className={this.state.inputError ? "inputErrorBox" : "hidden inputErrorBox"}>
+              {this.state.inputErrorMsg || ""}
             </div>
             <div className="comment_checkbox text-left">
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
