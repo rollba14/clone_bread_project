@@ -13,6 +13,7 @@ class DonationForm extends Component{
     e.preventDefault();
     let form = e.target;
     this.sanitizeInput(form);
+    this.verifyInput(form.suggestedAmount || form.customAmount);
   }
 
   sanitizeInput(form){
@@ -20,6 +21,13 @@ class DonationForm extends Component{
     form.customAmount = (DOMPurify.sanitize(form["donation_custom_amount"].value) + "").trim();
     form.comment = (DOMPurify.sanitize(form["donation_comment"].value) + "").trim();
     form.donationType = (DOMPurify.sanitize(form["donation_type"].value) + "").trim();
+  }
+
+  verifyInput(donateAmt){
+    if(!donateAmt){
+      alert('Donation amount cannot be empty');
+      return;
+    }
   }
 
   onChangeCommentBox =(e)=>{
