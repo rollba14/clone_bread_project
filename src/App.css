@@ -521,4 +521,8 @@ a:visited, a:hover, a:active {
   .donation_form .box_input{
     padding: 0;
   }
+
+  .donation_form .suggested_amount_boxes{
+    margin: auto;
+  }
 }
