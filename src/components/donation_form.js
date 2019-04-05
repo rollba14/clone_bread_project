@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import DOMPurify from 'dompurify';
+import InputFormatHint from './input_format_hint'
 
 class DonationForm extends Component{
   constructor(props){
@@ -127,6 +128,7 @@ class DonationForm extends Component{
             </div>
             <div className={this.state.inputError ? "inputErrorBox" : "hidden inputErrorBox"}>
               {this.state.inputErrorMsg || ""}
+              <InputFormatHint/>
             </div>
             <div className="comment_checkbox text-left">
               <input type="checkbox" id="comment_checkbox" checked={this.state.commentChecked} onChange={this.onChangeCommentBox}/>
