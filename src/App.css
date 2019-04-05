@@ -505,6 +505,18 @@ a:visited, a:hover, a:active {
   display: none;
 }
 
+.donation_form .input_format_hint{
+  text-align: left;
+  color: gray;
+}
+
+.donation_form .input_format_hint ul{
+  padding-left: 20px;
+  padding-top: 7px;
+  font-size: small;
+
+}
+
 @media only screen and (max-width: 500px) {
   .donation_form .box_input{
     padding: 0;
