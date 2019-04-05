@@ -161,6 +161,8 @@ h3, h4, h5, h6{
   background-color: #093247;
   padding: .7em 0;
   height: 47px;
+  width:100%;
+  margin: 0;
 }
 
 /* Home.js */
