@@ -316,6 +316,7 @@ a:visited, a:hover, a:active {
 
 .donation .campaign_msg {
   padding: 1em 2em;
+  margin-bottom: 2em;
 }
 
 .donation .campaign_msg p{
@@ -526,5 +527,9 @@ a:visited, a:hover, a:active {
 
   .donation_form .suggested_amount_boxes{
     margin: auto;
+  }
+
+  .donation {
+    padding: 0;
   }
 }
