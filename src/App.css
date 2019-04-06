@@ -590,4 +590,8 @@ a:visited, a:hover, a:active {
   .jumbotron-fluid{
     padding: 1em !important;
   }
+
+  .col-12{
+    padding: 5px;
+  }
 }
