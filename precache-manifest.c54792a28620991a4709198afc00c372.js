@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/incubates.99d978cc.jpg"
   },
   {
-    "revision": "04f5f90eacee9f1de355ed6702eda497",
+    "revision": "5a92c2e6ca83e88df73277dadbfdc931",
     "url": "/clone_bread_project/index.html"
   }
 ];
