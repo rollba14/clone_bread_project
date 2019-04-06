@@ -337,15 +337,27 @@ a:visited, a:hover, a:active {
 }
 
 .donation .campaign_msg .fb-btn{
-  background-color: #2C4373;
+  background-color: rgba(44, 67, 115,0.82);
+}
+
+.donation .campaign_msg .fb-btn:hover{
+  background-color: rgba(44, 67, 115,1);
 }
 
 .donation .campaign_msg .linkedin-btn{
-  background-color: #0F6293;
+  background-color: rgba(15, 98, 147,0.82);
+}
+
+.donation .campaign_msg .linkedin-btn:hover{
+  background-color: rgba(15, 98, 147,1);
 }
 
 .donation .campaign_msg .twitter-btn{
-  background-color: #2795E9;
+  background-color: rgba(39, 149, 233,0.82);
+}
+
+.donation .campaign_msg .twitter-btn:hover{
+  background-color: rgba(39, 149, 233, 1);
 }
 
 .donation .campaign_title {
