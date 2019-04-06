@@ -8,6 +8,7 @@ const InputFormatHint = () => {
         <li>Letters a-z, A-Z and other special characters are NOT accepted in custom amount.</li>
         <li>Comma(s) cannot appear after the dot (.).</li>
         <li>No white spaces are accepted between numbers.</li>
+        <li>Only up to two decimal digits are accepted.</li>
       </ul>
     </div>
   )
