@@ -75,7 +75,7 @@ class MyNavbar extends Component{
         <div>
           <Navbar light expand="lg" className="fixed-top">
             <Link to='/clone_bread_project' className="navbar-brand mr-auto">
-              Logo Here
+              ORIGINAL LOGO HERE
             </Link>
             <NavbarToggler className="text-primary" onClick={this.toggleNavbar}>
               <span className="navbar-toggler-icon"></span>
