@@ -328,6 +328,12 @@ a:visited, a:hover, a:active {
 .donation .campaign_msg button{
   color: white;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.donation .campaign_msg button img{
+  padding: 2px 2px;
 }
 
 .donation .campaign_msg .fb-btn{

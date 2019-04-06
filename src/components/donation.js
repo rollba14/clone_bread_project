@@ -20,19 +20,19 @@ class Donation extends Component{
                 <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
                   <button type="button" className="py-0 btn btn-sm btn-outline-secondary fb-btn">
                       <img src={facebook_icon_blue} alt="twitter icon"/>
-                      Facebook
+                      <span>Facebook</span>
                   </button>
                 </a>
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project&title=The+Bread+Project+Fall+Matching+Grant+Campaign" target="_blank" rel="noopener noreferrer">
                   <button type="button" className="py-0 btn btn-sm btn-outline-secondary linkedin-btn">
                       <img src={linkedin_icon_blue} alt="twitter icon"/>
-                      LinkedIn
+                      <span>LinkedIn</span>
                   </button>
                 </a>
                 <a href="https://twitter.com/intent/tweet/?text=Donate+to+The+Bread+Project+%7C+The+Bread+Project&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
                   <button type="button" className="py-0 btn btn-sm btn-outline-secondary twitter-btn">
                       <img src={twitter_icon_blue} alt="twitter icon"/>
-                      Twitter
+                      <span>Twitter</span>
                   </button>
                 </a>
               </p>
