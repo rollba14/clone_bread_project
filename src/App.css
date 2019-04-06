@@ -575,6 +575,10 @@ a:visited, a:hover, a:active {
     margin: auto;
   }
 
+  .donation_form .donation_form_body {
+    padding: .5em 1em;
+  }
+
   .donation {
     padding: 0;
   }
