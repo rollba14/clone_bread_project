@@ -17,7 +17,7 @@ class SocialMediaBtns extends Component{
     return(
       <div className='social_media col-12 py-5'>
         <div className="row">
-          <div className="col-md-10 px-5 px-md-4 mx-auto text-left">
+          <div className="col-md-10 px-md-5 px-md-4 mx-auto text-left">
             <span className="light_darker_text font-weight-bold text-left"><small>Share this:</small></span>
             <a href={twitterLink} target="_blank" rel="noopener noreferrer">
               <button type="button" className="py-0 btn btn-sm btn-outline-secondary">

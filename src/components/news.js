@@ -8,7 +8,7 @@ const News = () => {
         <div className="row">
 
           <div className="col-12 pt-4 pb-3">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <p className="text-left h2 light_darker_text border-bottom border-gray pb-4">
                 News & Events
               </p>

@@ -7,7 +7,7 @@ const Help = () => {
       <div className="container-fluid p-0 m-0 text-center">
         <div className="row">
           <div className="col-12 pt-4 pb-3">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <h1 className="p-3 mild_blue_text">Time + Talent + Treasure = Impact</h1>
               <img src={require('../assets/help_involve.jpg')} alt="Help Involve"/>
               <h4 className="pt-4 pb-3 h2 mild_blue_text font-weight-bold">Donate</h4>

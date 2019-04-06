@@ -96,7 +96,7 @@ const BootcampSchedule = () => {
           </tr>
         </tbody>
       </table>
-      <div className="mx-auto px-5 pt-2 pb-5">
+      <div className="mx-auto px-3 pt-2 pb-5">
 					<p>Questions? Contact our program staff at <a href="#" className="mild_blue_text">510.594.1702</a> or email us at <a href="#" className="mild_blue_text">program@breadproject.org</a>.
           <br/>We are happy to help you!</p>
 				</div>

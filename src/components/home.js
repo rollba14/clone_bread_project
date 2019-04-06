@@ -18,7 +18,7 @@ const Home = () => {
       <div className="container-fluid p-0 m-0 text-center">
         <div className="row">
           <div className="what_we_offer col-12 py-5">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <h3 className="h1 mild_blue_text font-weight-bold">What We Offer</h3>
               <p className="bakery_program_info text-muted h4">The Bakery Production Bootcamp is a 3-week job training program. It is FREE for low income adults in the San Francisco Bay Area. We employ an intensive training curriculum comprised of two main components – Commercial Baking Training and Workforce Essential Life Skills.</p>
               <div className="row col-md-9 col-sm-8 mx-auto bg-light p-4 justify-content-around">
@@ -55,7 +55,7 @@ const Home = () => {
           </div>
 
           <div className="col-12 py-5">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <h1 className="mild_blue_text font-weight-bold h1">Where & When</h1>
               <div className="row">
                 <div className="col-md-6 col-8 mx-auto mb-4">
@@ -75,7 +75,7 @@ const Home = () => {
           </div>
 
           <div className="mild_blue_bg col-12 py-5">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <h2 className="text-white h1">Get Started</h2>
               <p className="text-white h3 mb-4">The process is easy to apply – complete an application and participate in an intake interview with a member of The Bread Project program staff.</p>
               <a className="btn light-bg rounded-pill px-4 py-3 "><span className="h4 mild_blue_text font-weight-bold">SEE CLASS SCHEDULE</span></a>
@@ -83,7 +83,7 @@ const Home = () => {
           </div>
 
           <div className="bootcamps col-12 py-5">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <div className="row">
                 <div className="col-lg-4 col-12 mx-auto text-muted h5">
                   <p className="font-weight-bold">To schedule an appointment for an intake interview, contact us at:</p>

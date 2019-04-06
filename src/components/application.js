@@ -9,12 +9,12 @@ const Application = () => {
         <div className="row">
 
           <div className="col-12 pt-4 pb-3">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <p className="text-left h2 light_darker_text pb-4">
                 Apply to Program
               </p>
 
-              <div className="mild_blue_bg text-white px-5">
+              <div className="mild_blue_bg text-white px-md-5">
                 <p className="h4">
                   <span className="h1 font-weight-bold">Get Started</span><br/>
                   The process is easy to apply – download and complete the application below and participate in an intake interview with a member of The Bread Project program staff.<br/>
@@ -25,7 +25,7 @@ const Application = () => {
           </div>
 
           <div className="bootcamps col-12 py-5">
-            <div className="col-md-10 px-5 px-md-4 mx-auto">
+            <div className="col-md-10 px-md-5 px-md-4 mx-auto">
               <div className="row">
                 <div className="col-lg-4 col-12 mx-auto text-muted h5">
                   <p className="font-weight-bold">To schedule an appointment for an intake interview, contact us at:</p>
