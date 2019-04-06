@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import twitter_icon_gray from '../assets/twitter_icon_gray.png';
-import facebook_icon_gray from '../assets/facebook_icon_gray.png';
+import twitter_icon_blue from '../assets/twitter_icon_blue.png';
+import linkedin_icon_blue from '../assets/linkedin_icon_blue.png';
+import facebook_icon_blue from '../assets/facebook_icon_blue.png';
 import DonationForm from './donation_form';
 
 class Donation extends Component{
@@ -17,21 +18,21 @@ class Donation extends Component{
             <div className="campaign_msg box_shadow_bg">
               <p className="d-flex justify-content-md-around wrap">
                 <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
-                      <img src={facebook_icon_gray} alt="twitter icon"/>
-                      <small>Facebook</small>
+                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary fb-btn">
+                      <img src={facebook_icon_blue} alt="twitter icon"/>
+                      Facebook
                   </button>
                 </a>
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project&title=The+Bread+Project+Fall+Matching+Grant+Campaign" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
-                      <img src={twitter_icon_gray} alt="twitter icon"/>
-                      <small>LinkedIn</small>
+                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary linkedin-btn">
+                      <img src={linkedin_icon_blue} alt="twitter icon"/>
+                      LinkedIn
                   </button>
                 </a>
                 <a href="https://twitter.com/intent/tweet/?text=Donate+to+The+Bread+Project+%7C+The+Bread+Project&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary">
-                      <img src={twitter_icon_gray} alt="twitter icon"/>
-                      <small>Twitter</small>
+                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary twitter-btn">
+                      <img src={twitter_icon_blue} alt="twitter icon"/>
+                      Twitter
                   </button>
                 </a>
               </p>

@@ -325,6 +325,23 @@ a:visited, a:hover, a:active {
   font-weight: 600;
 }
 
+.donation .campaign_msg button{
+  color: white;
+  font-weight: bold;
+}
+
+.donation .campaign_msg .fb-btn{
+  background-color: #2C4373;
+}
+
+.donation .campaign_msg .linkedin-btn{
+  background-color: #0F6293;
+}
+
+.donation .campaign_msg .twitter-btn{
+  background-color: #2795E9;
+}
+
 .donation .campaign_title {
   padding: 0.3em 1em 0.1em 1em;
 }
