@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3f217ace77829c9b9f90",
+    "revision": "a92ea613e10d09f55264",
     "url": "/clone_bread_project/static/css/main.9c323cbd.chunk.css"
   },
   {
-    "revision": "3f217ace77829c9b9f90",
-    "url": "/clone_bread_project/static/js/main.3f217ace.chunk.js"
+    "revision": "a92ea613e10d09f55264",
+    "url": "/clone_bread_project/static/js/main.a92ea613.chunk.js"
   },
   {
-    "revision": "a450ea2b6416e6cde242",
+    "revision": "85e7192009a061410200",
     "url": "/clone_bread_project/static/css/1.4179c274.chunk.css"
   },
   {
-    "revision": "a450ea2b6416e6cde242",
-    "url": "/clone_bread_project/static/js/1.a450ea2b.chunk.js"
+    "revision": "85e7192009a061410200",
+    "url": "/clone_bread_project/static/js/1.85e71920.chunk.js"
   },
   {
     "revision": "66e5f7e7cc0237db8315",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/incubates.99d978cc.jpg"
   },
   {
-    "revision": "b3a636125bfa729b6efd30860f446dfd",
+    "revision": "04f5f90eacee9f1de355ed6702eda497",
     "url": "/clone_bread_project/index.html"
   }
 ];

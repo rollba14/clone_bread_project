@@ -1,10 +1,10 @@
 {
   "main.css": "/clone_bread_project/static/css/main.9c323cbd.chunk.css",
-  "main.js": "/clone_bread_project/static/js/main.3f217ace.chunk.js",
-  "main.js.map": "/clone_bread_project/static/js/main.3f217ace.chunk.js.map",
+  "main.js": "/clone_bread_project/static/js/main.a92ea613.chunk.js",
+  "main.js.map": "/clone_bread_project/static/js/main.a92ea613.chunk.js.map",
   "static/css/1.4179c274.chunk.css": "/clone_bread_project/static/css/1.4179c274.chunk.css",
-  "static/js/1.a450ea2b.chunk.js": "/clone_bread_project/static/js/1.a450ea2b.chunk.js",
-  "static/js/1.a450ea2b.chunk.js.map": "/clone_bread_project/static/js/1.a450ea2b.chunk.js.map",
+  "static/js/1.85e71920.chunk.js": "/clone_bread_project/static/js/1.85e71920.chunk.js",
+  "static/js/1.85e71920.chunk.js.map": "/clone_bread_project/static/js/1.85e71920.chunk.js.map",
   "runtime~main.js": "/clone_bread_project/static/js/runtime~main.66e5f7e7.js",
   "runtime~main.js.map": "/clone_bread_project/static/js/runtime~main.66e5f7e7.js.map",
   "static/media/social_enterprise.jpg": "/clone_bread_project/static/media/social_enterprise.40c46e96.jpg",
@@ -36,6 +36,6 @@
   "static/css/main.9c323cbd.chunk.css.map": "/clone_bread_project/static/css/main.9c323cbd.chunk.css.map",
   "static/css/1.4179c274.chunk.css.map": "/clone_bread_project/static/css/1.4179c274.chunk.css.map",
   "index.html": "/clone_bread_project/index.html",
-  "precache-manifest.9ad26f85157d50b8ab0b94b9ccf53715.js": "/clone_bread_project/precache-manifest.9ad26f85157d50b8ab0b94b9ccf53715.js",
+  "precache-manifest.764e3846a9b8695b7d41006999d11e9c.js": "/clone_bread_project/precache-manifest.764e3846a9b8695b7d41006999d11e9c.js",
   "service-worker.js": "/clone_bread_project/service-worker.js"
 }
