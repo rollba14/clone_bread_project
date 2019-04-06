@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4168925dc7a72f4eff34",
+    "revision": "3f217ace77829c9b9f90",
     "url": "/clone_bread_project/static/css/main.9c323cbd.chunk.css"
   },
   {
-    "revision": "4168925dc7a72f4eff34",
-    "url": "/clone_bread_project/static/js/main.4168925d.chunk.js"
+    "revision": "3f217ace77829c9b9f90",
+    "url": "/clone_bread_project/static/js/main.3f217ace.chunk.js"
   },
   {
     "revision": "a450ea2b6416e6cde242",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/incubates.99d978cc.jpg"
   },
   {
-    "revision": "0a57af873eb1f0f8014794daeb85fe80",
+    "revision": "b3a636125bfa729b6efd30860f446dfd",
     "url": "/clone_bread_project/index.html"
   }
 ];

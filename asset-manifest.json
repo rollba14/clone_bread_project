@@ -1,7 +1,7 @@
 {
   "main.css": "/clone_bread_project/static/css/main.9c323cbd.chunk.css",
-  "main.js": "/clone_bread_project/static/js/main.4168925d.chunk.js",
-  "main.js.map": "/clone_bread_project/static/js/main.4168925d.chunk.js.map",
+  "main.js": "/clone_bread_project/static/js/main.3f217ace.chunk.js",
+  "main.js.map": "/clone_bread_project/static/js/main.3f217ace.chunk.js.map",
   "static/css/1.4179c274.chunk.css": "/clone_bread_project/static/css/1.4179c274.chunk.css",
   "static/js/1.a450ea2b.chunk.js": "/clone_bread_project/static/js/1.a450ea2b.chunk.js",
   "static/js/1.a450ea2b.chunk.js.map": "/clone_bread_project/static/js/1.a450ea2b.chunk.js.map",
@@ -36,6 +36,6 @@
   "static/css/main.9c323cbd.chunk.css.map": "/clone_bread_project/static/css/main.9c323cbd.chunk.css.map",
   "static/css/1.4179c274.chunk.css.map": "/clone_bread_project/static/css/1.4179c274.chunk.css.map",
   "index.html": "/clone_bread_project/index.html",
-  "precache-manifest.de224d3a401753c443eb6b7771492650.js": "/clone_bread_project/precache-manifest.de224d3a401753c443eb6b7771492650.js",
+  "precache-manifest.9ad26f85157d50b8ab0b94b9ccf53715.js": "/clone_bread_project/precache-manifest.9ad26f85157d50b8ab0b94b9ccf53715.js",
   "service-worker.js": "/clone_bread_project/service-worker.js"
 }
