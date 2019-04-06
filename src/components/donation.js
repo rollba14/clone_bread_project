@@ -16,21 +16,21 @@ class Donation extends Component{
         <div className="row">
           <div className="col-12 col-md-6 order-md-first">
             <div className="campaign_msg box_shadow_bg">
-              <p className="d-flex justify-content-md-around wrap">
+              <p className="d-flex justify-content-around wrap">
                 <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary fb-btn">
+                  <button type="button" className="btn btn-sm btn-outline-secondary fb-btn">
                       <img src={facebook_icon_blue} alt="twitter icon"/>
                       <span>Facebook</span>
                   </button>
                 </a>
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project&title=The+Bread+Project+Fall+Matching+Grant+Campaign" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary linkedin-btn">
+                  <button type="button" className="btn btn-sm btn-outline-secondary linkedin-btn">
                       <img src={linkedin_icon_blue} alt="twitter icon"/>
                       <span>LinkedIn</span>
                   </button>
                 </a>
                 <a href="https://twitter.com/intent/tweet/?text=Donate+to+The+Bread+Project+%7C+The+Bread+Project&url=https%3A%2F%2Fdonorbox.org%2Fdonate-to-the-bread-project" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="py-0 btn btn-sm btn-outline-secondary twitter-btn">
+                  <button type="button" className="btn btn-sm btn-outline-secondary twitter-btn">
                       <img src={twitter_icon_blue} alt="twitter icon"/>
                       <span>Twitter</span>
                   </button>

@@ -330,6 +330,7 @@ a:visited, a:hover, a:active {
   font-weight: bold;
   display: flex;
   align-items: center;
+  padding-right: 1em;
 }
 
 .donation .campaign_msg button img{
