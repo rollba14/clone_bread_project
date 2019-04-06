@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ad75f62c212df311677b",
-    "url": "/clone_bread_project/static/css/main.707b8e71.chunk.css"
+    "revision": "2e600bbbeecc2afb31c2",
+    "url": "/clone_bread_project/static/css/main.935fc073.chunk.css"
   },
   {
-    "revision": "ad75f62c212df311677b",
-    "url": "/clone_bread_project/static/js/main.ad75f62c.chunk.js"
+    "revision": "2e600bbbeecc2afb31c2",
+    "url": "/clone_bread_project/static/js/main.2e600bbb.chunk.js"
   },
   {
-    "revision": "2887af8feae3233a3949",
-    "url": "/clone_bread_project/static/css/1.33fe56a8.chunk.css"
+    "revision": "85e7192009a061410200",
+    "url": "/clone_bread_project/static/css/1.4179c274.chunk.css"
   },
   {
-    "revision": "2887af8feae3233a3949",
-    "url": "/clone_bread_project/static/js/1.2887af8f.chunk.js"
+    "revision": "85e7192009a061410200",
+    "url": "/clone_bread_project/static/js/1.85e71920.chunk.js"
   },
   {
     "revision": "66e5f7e7cc0237db8315",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/facebook_icon.8c3a6a07.png"
   },
   {
+    "revision": "630572e0d9f496b852c9497667a9e57d",
+    "url": "/clone_bread_project/static/media/facebook_icon_blue.630572e0.png"
+  },
+  {
     "revision": "ccf6909f8a70aa2e035bec36377b66ab",
     "url": "/clone_bread_project/static/media/google_plus_icon.ccf6909f.png"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = [
   {
     "revision": "fd544a3b8e4a07a4447c3664f7a07ec5",
     "url": "/clone_bread_project/static/media/twitter_icon.fd544a3b.png"
+  },
+  {
+    "revision": "2c61881e1da04bb25928482156450b4b",
+    "url": "/clone_bread_project/static/media/twitter_icon_blue.2c61881e.png"
   },
   {
     "revision": "4ff164402b726b08503b54af91fb4cb4",
@@ -116,7 +124,7 @@ self.__precacheManifest = [
     "url": "/clone_bread_project/static/media/incubates.99d978cc.jpg"
   },
   {
-    "revision": "d7aa1d3487f6fe64aea200e4782de574",
+    "revision": "44e5abfb13de405a82e6e1c0b493fe0c",
     "url": "/clone_bread_project/index.html"
   }
 ];
