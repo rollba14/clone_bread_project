@@ -578,4 +578,12 @@ a:visited, a:hover, a:active {
   .donation {
     padding: 0;
   }
+
+  .navbar .show, .collapsing{
+    padding: 1em;
+  }
+
+  .navbar .show .nav-item, .navbar .collapsing .nav-item{
+    padding: 0;
+  }
 }
