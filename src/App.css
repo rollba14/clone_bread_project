@@ -556,6 +556,11 @@ a:visited, a:hover, a:active {
 
 }
 
+.donation_form .box_input{
+  padding-right: 10px;
+  padding-left: 0;
+}
+
 .row{
   margin-left: 0;
   margin-right: 0;
