@@ -25,6 +25,7 @@ class App extends Component {
             <Route path='/clone_bread_project/news' component={News}/>
             <Route path='/clone_bread_project/application' component={Application}/>
             <Route path='/clone_bread_project/donation' component={Donation}/>
+            <Route component={Main}/>
           </Switch>
           <Footer/>
         </div>
