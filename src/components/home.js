@@ -95,7 +95,7 @@ const Home = () => {
                   <p className="font-weight-lighter h6"><small>Certain applicants may be required to do a 2-hour kitchen exercise to complete your application.</small></p>
                   <div className="mild_blue_border col-4 mx-auto text-white m-4"> </div>
                   <p>Our program has certain eligibility and documentation requirements</p>
-                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1 m-4"><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
+                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1"><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
                   <a href="#" className="mild_blue_text">See Eligibility Information</a>
                 </div>
                 <div className="col-lg-8 col-12 mx-auto">
