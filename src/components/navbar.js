@@ -31,6 +31,9 @@ class MyNavbar extends Component{
 
   componentDidMount(){
     this.addListenerToNavBar();
+    this.props.setClick(()=>{this.setState({
+      isOpen: false,
+    })})
   }
 
   addListenerToNavBar(){
