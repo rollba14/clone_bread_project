@@ -65,6 +65,8 @@
   background-size: cover;
   background-image: url('./assets/Homepage_Hero_Final-compressor.jpg');
   padding: 100px 100px;
+  display: flex;
+  align-items: center;
 }
 
 .mild_blue_bg{
@@ -173,6 +175,8 @@ h3, h4, h5, h6{
   text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);
   background-image: url('./assets/BakeryBootcamp_Hero_color-compressor.jpg');
   padding: 140px 100px;
+  display: flex;
+  align-items: center;
 }
 
 .home .what_we_offer{
@@ -591,11 +595,18 @@ a:visited, a:hover, a:active {
     padding: .5em 1em;
   }
 
+  .col-12{
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
   .jumbotron-fluid{
     padding: 1em !important;
   }
 
-  .col-12{
-    padding: 5px;
+  .jumbotron-fluid > div {
+    font-size: 3em !important;
+    line-height: 3em !important;
   }
 }

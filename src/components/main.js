@@ -10,7 +10,7 @@ const Main = () => {
         <Jumbotron className="jumbotron-fluid text-center text-white">
           <div className="container-fluid">
             <div className="col-lg-10 mx-auto">
-              <h4 className="display-3"> Baking Through Barriers</h4>
+              <p>Baking Through Barriers</p>
             </div>
           </div>
         </Jumbotron>
