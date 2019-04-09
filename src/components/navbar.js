@@ -41,12 +41,14 @@ class MyNavbar extends Component{
     let navBar = document.getElementsByClassName('navbar')[0];
     let collapseDiv = navBar.querySelector('.show, .collapse');
     let resizeNavBarTimer;
+    // adjust navbar's properties if scrolled pass certain pixels
     window.onscroll = (e)=>{
       clearTimeout(resizeNavBarTimer);
       resizeNavBarTimer = setTimeout(()=>{
         this.reduceNavBarSize(e,htmlDiv,navBar,collapseDiv);
       },150);
     };
+    // close navbar collapse if remained open on bigger viewport
     var toggleNavbarTimer;
     window.addEventListener('resize',()=>{
       clearTimeout(toggleNavbarTimer);
