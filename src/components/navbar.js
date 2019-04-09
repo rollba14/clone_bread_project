@@ -25,11 +25,17 @@ class MyNavbar extends Component{
     });
   }
 
+  closeNavbar=()=>{
+    if(this.state.isOpen){
+      this.setState({
+        isOpen: false,
+      })
+    }
+  }
+
   componentDidMount(){
     this.addListenerToNavBar();
-    this.props.setClick(()=>{this.setState({
-      isOpen: false,
-    })})
+    this.props.setClick(this.closeNavbar);
   }
 
   addListenerToNavBar(){
@@ -59,7 +65,7 @@ class MyNavbar extends Component{
     // Close navbar on nav item click
     let nav_items = document.querySelectorAll('.nav-item');
     for(let i =0; i< nav_items.length; i++){
-      nav_items[i].querySelector('a').addEventListener('click', this.toggleNavbar);
+      nav_items[i].querySelector('a').addEventListener('click', this.closeNavbar);
     }
   }
 
