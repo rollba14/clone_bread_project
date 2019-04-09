@@ -58,6 +58,11 @@ class MyNavbar extends Component{
         }
       },100);
     })
+    // Close navbar on nav item click
+    let nav_items = document.querySelectorAll('.nav-item');
+    for(let i =0; i< nav_items.length; i++){
+      nav_items[i].querySelector('a').addEventListener('click', this.toggleNavbar);
+    }
   }
 
   reduceNavBarSize(e,htmlDiv,navBar,collapseDiv){
