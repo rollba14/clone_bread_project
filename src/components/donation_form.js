@@ -40,12 +40,12 @@ class DonationForm extends Component{
         error = "Comma(s) can only be used before the decimal.";
       }
     }
-
-    if(/^(\d*\.?\d{1,2})$/.test(donateParts.join('.'))) {
+    let filteredStr = donateParts.join('.');
+    if(/^(\d*\.?\d{1,2})$/.test(filteredStr)) {
       //valid input format
       const donationAmount = donateParts[1] ? this.formatNum(donateParts[0]) + '.' + donateParts[1] : this.formatNum(donateParts[0]);
       const comment = this.form.comment ? `\n\nHeres the comment you wrote:\n${this.form.comment}` : "";
-      const thankYouMsg = `Thank you for donating $${donationAmount}. This is just a demo. Please consider donating at The Bread Project's original site.${comment}`;
+      const thankYouMsg = `Thank you for donating a ${this.form.donationType} payment of $${donationAmount}. This is just a demo. Please consider donating at The Bread Project's original site.${comment}`;
       alert(thankYouMsg);
     }
     else if(!error){
@@ -61,7 +61,11 @@ class DonationForm extends Component{
       this.setState({
         inputError : false,
         inputErrorMsg : null,
-      })
+      });
+      // output the correct formated amount in the input box if no error
+      if(this.form.customAmount){
+        this.form["donation_custom_amount"].value = filteredStr;
+      }
     }
   }
 
