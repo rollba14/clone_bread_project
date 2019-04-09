@@ -570,6 +570,10 @@ a:visited, a:hover, a:active {
   margin-right: 0;
 }
 
+.point_3_em{
+  font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 500px) {
   .donation_form .box_input{
     padding: 0;

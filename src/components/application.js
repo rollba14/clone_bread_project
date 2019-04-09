@@ -18,7 +18,7 @@ const Application = () => {
                 <p className="h4">
                   <span className="h1 font-weight-bold">Get Started</span><br/>
                   The process is easy to apply – download and complete the application below and participate in an intake interview with a member of The Bread Project program staff.<br/>
-                  <a href="https://breadproject.org/wp-content/uploads/2019/02/FY-19-Application-FINAL.pdf" className="btn light-bg rounded-pill px-4 py-0 text-uppercase"><span className="h4 mild_blue_text font-weight-bold">The Bread Project Application</span></a>
+                  <a href="https://breadproject.org/wp-content/uploads/2019/02/FY-19-Application-FINAL.pdf" className="btn light-bg rounded-pill px-4 py-1 text-uppercase"><span className="point_3_em mild_blue_text font-weight-bold">The Bread Project Application</span></a>
                 </p>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Application = () => {
                   <p className="font-weight-lighter h6"><small>Certain applicants may be required to do a 2-hour kitchen exercise to complete your application.</small></p>
                   <div className="mild_blue_border col-4 mx-auto text-white m-4"> </div>
                   <p>Our program has certain eligibility and documentation requirements</p>
-                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1"><span className="h4 font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
+                  <div><a className="btn mild_blue_bg rounded-pill px-4 py-1"><span className="h4 point_3_em font-weight-bold text-white">DOWNLOAD APPLICATION</span></a></div>
                   <a href="#" className="mild_blue_text">See Eligibility Information</a>
                 </div>
                 <div className="col-lg-8 col-12 mx-auto">
